@@ -1,0 +1,1405 @@
+<html lang="pt-BR"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Currículos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="currículo,curriculo,curriculum,cv,vitae,lattes,produção,producao,científica,cientifica,Brasil" http-equiv="keywords">
+<title>Currículo do Sistema de Currículos Lattes (Rafael Jeferson Pezzuto Damaceno)</title>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});	
+      				  
+<!--       		$( function() { -->
+<!-- 			    $( document ).tooltip(); -->
+<!-- 			 } ); -->
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</head>
+<body>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido" tabindex="0"> Currículo Lattes - Busca Textual - Visualização do Currículo </h1>
+<a href="http://lattes.cnpq.br/" title="Currículo Lattes" target="_blank" tabindex="1"><img title="Currículo Lattes" alt="Currículo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header menuScroll" style="position: absolute; top: 1025px;">
+<span class="tituloFlow">Formação acadêmica/titulação</span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4265658Z1&amp;idiomaExibicao=2" class="btn-br" tabindex="2">English</a><a title="Imprimir currículo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()" tabindex="3"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)" tabindex="4"></a><a title="Fonte padrão" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)" tabindex="5"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)" tabindex="6"></a><a href="download.do?metodo=apresentar&amp;idcnpq=2552938367742788" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" tabindex="7"></a><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php" tabindex="8"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/" tabindex="9">
+<h2 tabindex="0">CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type="text/javascript">menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade" tabindex="10" _megamenupos="0pos"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="14" _megamenupos="1pos"><span></span>Formação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="17" _megamenupos="2pos"><span></span>Atuação</a>
+		
+	
+		
+		
+		
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador" tabindex="21" _megamenupos="3pos"><span></span>Projetos</a>
+		
+	<script type="text/javascript">menu.iniciar("projetos");</script>
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador" tabindex="24" _megamenupos="4pos"><span></span>Produções</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("potencialInovacao");</script>
+		
+		
+		<a id="ancora-menu-potencialInovacao" href="#PotencialInovacao" class="acessibilidade separador" tabindex="57" _megamenupos="5pos"><span></span>Inovação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador" tabindex="72" _megamenupos="6pos"><span></span>Educação e Popularização de C &amp; T</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador" tabindex="87" _megamenupos="7pos"><span></span>Bancas</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador" tabindex="90" _megamenupos="8pos"><span></span>+</a>
+		
+	
+		
+		
+		
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4265658Z1"><div class="infpessoa">
+<h2 class="nome" tabindex="0">Rafael Jeferson Pezzuto Damaceno</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endereço para acessar este CV: http://lattes.cnpq.br/2552938367742788</li>
+<li>
+<span class="img_identy icone-informacao-autor"></span>ID Lattes: <span style="font-weight: bold; color: #326C99;">2552938367742788</span>
+</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>Última atualização do currículo em 25/06/2023</li>
+</ul>
+</div><br class="clear"><div class="title-wrapper">
+<h1 class="ui-hidden" tabindex="0"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Ciência e Tecnologia pela Universidade Federal do ABC (2012), graduação em Ciência da Computação pela Universidade Federal do ABC (2014), mestrado em Ciência da Computação pela Universidade Federal do ABC (2016) e doutorado em Ciência da Computação pela Universidade Federal do ABC (2020). Tem experiência na área de Ciência da Computação, com ênfase em Genealogia acadêmica, atuando principalmente nos seguintes temas: genealogia acadêmica, teoria dos grafos, mineração de dados, cientometria e interação humano-computador. Atualmente, realiza pesquisa na área de Visão Computacional e Aprendizado Profundo no contexto de Informática Urbana.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Identificacao" tabindex="92">
+<h1 tabindex="0">Identificação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Rafael Jeferson Pezzuto Damaceno</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">DAMACENO, R. J. P.;DAMACENO, RAFAEL;DAMACENO, RAFAEL JEFERSON PEZZUTO;DAMACENO, RAFAEL J. P.;DAMACENO, RAFAEL J.P.;DAMACENO, RAFAEL J. PEZZUTO</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Lattes iD</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><img src="./images/v2/icone_lattes.png" style="width: 15px; margin-right: 10px;">http://lattes.cnpq.br/2552938367742788</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Orcid iD </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><a class="icons-aviso titBottom icons-aviso-help icon-cor" href="javascript:void(0)" rel="tooltip" title="O que é ORCID? ORCID é uma organização independente sem fins lucrativos que fornece um identificador persistente - um ORCID iD - que distingue de outros pesquisadores e um mecanismo para conjuntos de resultados e atividades de pesquisa ao seu ID. O ORCID está bem localizado em editores, financiadores, instituições e outros serviços relacionados à pesquisa. Saiba mais em orcid.org " style="font-weight:bold;font-size:+1;color:blue;position:relative;top:-3px;" tabindex="93">?</a> <img src="./images/v2/icone_orcid.png" style="width: 15px; margin-right: 10px;"><a href="https://orcid.org/0000-0003-4910-1534" tabindex="94">https://orcid.org/0000-0003-4910-1534</a></div>
+</div>
+</div>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Endereco" tabindex="95">
+<h1 tabindex="0">Endereço</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao" tabindex="96">
+<h1 tabindex="0">Formação acadêmica/titulação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - 2020</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Ciência da Computação. <br class="clear">Universidade Federal do ABC, UFABC, Brasil.
+		
+	<br class="clear">Título: Métodos computacionais para identificação e análise de grafos de genealogia acadêmica<a class="tooltip-oasis" target="_blank" style="font-weight:bold;font-size:+1;color:blue;position:relative;top:-3px;" href="http://oasisbr.ibict.br/vufind/Record/UFBC_39e1b5bca306c1f6cc52766989997b7d" tabindex="97"><img src="./images/v2/logo-oasisbr-circulo.png" style="width: 15px; margin-right: 0px; vertical-align: bottom">
+					<span>				   
+					     <img src="./images/v2/logo-oasisbr.png"><br><br>
+					     <p align="justify">O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações.</p>		    
+					 </span>			
+					  </a>, Ano de obtenção: 2020. <br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/4727357182510680" tabindex="98"><img src="images/curriculo/logolattes.gif"></a>Jesús Pascual Mena Chalco. <br class="clear">Bolsista do(a): Universidade Federal do ABC, UFABC, Brasil. <br class="clear">Palavras-chave: Genealogia acadêmica; Construção de grafos; Análise de padrões; Modelo de crescimento populacional.<br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Cientometria. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ciência da Computação<span class="ajaxCAPES" data-param="&amp;codigoCurso=33144010008P1&amp;nivelCurso=M"> (Conceito CAPES 4)</span>. <br class="clear">Universidade Federal do ABC, UFABC, Brasil.
+		
+	<br class="clear">Título: Acessibilidade de Pessoas com Deficiência Visual aos Dispositivos Móveis: Mapeamento de Problemas, Recomendações e Estudo de Caso de Gestos de Toque<a class="tooltip-oasis" target="_blank" style="font-weight:bold;font-size:+1;color:blue;position:relative;top:-3px;" href="http://oasisbr.ibict.br/vufind/Record/UFBC_ca8c2e7e287071e4094178ef72c1930b" tabindex="99"><img src="./images/v2/logo-oasisbr-circulo.png" style="width: 15px; margin-right: 0px; vertical-align: bottom">
+					<span>				   
+					     <img src="./images/v2/logo-oasisbr.png"><br><br>
+					     <p align="justify">O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações.</p>		    
+					 </span>			
+					  </a>, Ano de Obtenção: 2016.<br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/7111526592323456" tabindex="100"><img src="images/curriculo/logolattes.gif"></a>Juliana Cristina Braga.<br class="clear">Coorientador: Jesús Pascual Mena Chalco. <br class="clear">Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear">Palavras-chave: Dispositivos móveis com telas de toque; Pessoas com deficiência visual; Gestos de toque; acessibilidade.<br class="clear">Grande área: Ciências Exatas e da Terra</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Ciência da Computação. <br class="clear">Universidade Federal do ABC, UFABC, Brasil.
+		
+	<br class="clear">Título: Estudo da Acessibilidade de Deficientes Visuais nas Interfaces Touchscreen dos Dispositivos Móveis. <br class="clear">Orientador: Juliana Cristina Braga. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Ciência e Tecnologia. <br class="clear">Universidade Federal do ABC, UFABC, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaPosDoutorado" tabindex="101">
+<h1 tabindex="0">Pós-doutorado</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2023</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear">Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear">Bolsista do(a): Fundação de Apoio à Universidade de São Paulo, FUSP, Brasil. <br class="clear">Grande área: Ciências Exatas e da Terra</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2022 - 2023</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear">Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear">Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. <br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Aprendizado Profundo. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoComplementar" tabindex="102">
+<h1 tabindex="0">Formação Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AtuacaoProfissional" tabindex="103">
+<h1 tabindex="0">Atuação Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear"><div class="inst_back">
+<b>Universidade Federal do ABC, UFABC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - 2020</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Bolsista de doutorado, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Bolsista de mestrado, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Bolsista de iniciação científica, Carga horária: 20, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosPesquisa" tabindex="104">
+<h1 tabindex="0">Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Documentação e análise de árvores de genealogia acadêmica do Brasil (Projeto MCTI/CNPq/Universal 2014)" tabindex="105"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - 2020</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Documentação e análise de árvores de genealogia acadêmica do Brasil (Projeto MCTI/CNPq/Universal 2014)<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto certificado pelo(a) coordenador(a) Jesús Pascual Mena Chalco em 12/02/2017.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: No decorrer do tempo a ciência evolui em diferentes ambientes e ritmos que podem ser dados por incrementos graduais ou por revoluções que permitiram responder os principais desafios de cada época. No ambiente acadêmico, esta evolução é facilitada pelos pesquisadores orientadores ou formadores de recursos humanos nos níveis de graduação, mestrado, doutorado ou pós-doutorado. Sob este aspecto, dada a dedicação à formação de cientistas, muitos pesquisadores acadêmicos tiveram um papel extremamente importante na ciência. Até hoje, com a finalidade de preservar a história acadêmica, poucos empreendimentos foram realizados para registrar e documentar a influência que cada pesquisador têm exercido sobre seus orientandos ao longo dos anos. Nesse contexto, a genealogia acadêmica é utilizada para documentar e organizar, através de uma árvore (ou conjuntos de árvores) de genealogia, pesquisadores por meio de suas relações (linhagem) de orientação ou supervisão acadêmica. No Brasil, a identificação dos pesquisadores ancestrais é uma tarefa desafiadora pois atualmente não existem repositórios que permitam o registro de informações da linhagem acadêmica de pesquisadores associados a diferentes áreas de atuação acadêmica. Este projeto concentra-se no desenvolvimento de uma metodologia computacional para a geração e análise de árvores de genealogia acadêmica para pesquisadores que formaram ou tiveram formação no Brasil. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (3)  / Mestrado acadêmico: (2)  / Doutorado: (2) . <br class="clear"><br class="clear">Integrantes: Rafael Jeferson Pezzuto Damaceno - Integrante / Jesús Pascual Mena Chalco - Coordenador / Luciano Rossi - Integrante.<br class="clear"></div>
+</div><a name="PP_Projeto de Gestos Para Pessoas com Deficiência Visual: Uma Abordagem Baseada em Telas de Toque" tabindex="106"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto de Gestos Para Pessoas com Deficiência Visual: Uma Abordagem Baseada em Telas de Toque<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Mestrado acadêmico: (1) . <br class="clear"><br class="clear">Integrantes: Rafael Jeferson Pezzuto Damaceno - Integrante / Juliana Cristina Braga - Coordenador.<br class="clear"></div>
+</div><a name="PP_Estudo de Acessibilidade de Componentes da Internet Rica" tabindex="107"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo de Acessibilidade de Componentes da Internet Rica<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Foi dada continuidade ao projeto do programa Pesquisando Desde o Primeiro Dia (PDPD) da UFABC, em outra modalidade, agora como Projeto de Iniciação Científica. Resumo: Se por um lado as tecnologias para o desenvolvimento de interfaces ricas em sites na w eb avançam, por outro o uso frequente dessas tecnologias contribui para a diminuição da acessibilidade nos Websites. Diante desse problema, o presente projeto realizou um estudo para avaliar a acessibilidade de componentes de interface ricas na Web. Foram utilizadas as recomendações WAI-ARIA como referência. Os problemas de acessibilidade da biblioteca de componentes JBoss Richfaces foram analisados. O trabalho demonstra uma metodologia para tornar acessível os componentes ricos analisados.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear"><br class="clear">Integrantes: Rafael Jeferson Pezzuto Damaceno - Integrante / Juliana Cristina Braga - Coordenador.<br class="clear">Financiador(es): Universidade Federal do ABC - Bolsa.</div>
+</div><a name="PP_Estudo da Acessibilidade de Toolkits para Desenvolvimento de Aplicações Ricas para Internet (RIAs)" tabindex="108"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo da Acessibilidade de Toolkits para Desenvolvimento de Aplicações Ricas para Internet (RIAs)<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projeto participante do programa "Pesquisando Desde o Primeiro Dia" da Universidade Federal do ABC. Resumo: Com o avanço nas tecnologias de desenvolvimento de sites a acessibilidade na web tem diminuído. Este projeto estuda a acessibilidade de componentes de interface rica para web, realizando estudo de caso para aplicar a recomendação WAI-ARIA. Foi possível tornar acessível os componentes ricos da toolkit Jboss Richfaces 3.3.3.Final com o uso das marcações WAI-ARIA, no entanto, é necessário testar estas recomendações em componentes ricos de outras linguagens, além de realizar os testes em diferentes navegadores/leitores de tela, próximas etapas desta pesquisa.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear"><br class="clear">Integrantes: Rafael Jeferson Pezzuto Damaceno - Integrante / Juliana Cristina Braga - Coordenador.<br class="clear">Financiador(es): Universidade Federal do ABC - Bolsa.</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosExtensao" tabindex="109">
+<h1 tabindex="0">Projetos de extensão</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Estudo do Uso das Tecnologias Assistivas de Informação e Comunicação pelos Deficientes Visuais" tabindex="110"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo do Uso das Tecnologias Assistivas de Informação e Comunicação pelos Deficientes Visuais<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Extensão. <br class="clear"><br class="clear">Integrantes: Rafael Jeferson Pezzuto Damaceno - Integrante / Juliana Cristina Braga - Coordenador.<br class="clear">Financiador(es): Universidade Federal do ABC - Bolsa.</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="RevisorPeriodico" tabindex="111">
+<h1 tabindex="0">Revisor de periódico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2020 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: SCIENTOMETRICS (ONLINE)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2022 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Journal of Informetrics</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AreasAtuacao" tabindex="112">
+<h1 tabindex="0">Áreas de atuação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Visão Computacional. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Aprendizado Profundo. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Genealogia acadêmica. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Mineração de dados. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Interação Humano-Computador. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Acessibilidade. <br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Idiomas" tabindex="113">
+<h1 tabindex="0">Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Pouco, Fala Pouco, Lê Pouco, Escreve Pouco. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProducoesCientificas" tabindex="114">
+<h1 tabindex="0">Produções</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica" tabindex="115"></a><br class="clear"><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes" tabindex="116"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos" tabindex="117"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear"><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronológica </option><option value="2"> Número de citações Web of science </option><option value="3"> Número de citações Scopus </option><option value="4"> Numero de citações Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Importância </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">DAMACENO, R. J. P.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2020</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2552938367742788" target="_blank" tabindex="118">DAMACENO, R. J. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2344017108313395" target="_blank" tabindex="119">SILVA, M. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4727357182510680" target="_blank" tabindex="120">MENA-CHALCO, JESUS P.</a> . Modelo populacional para análise de genealogia acadêmica: Evidências sobre crescimento acadêmico no Brasil. CIÊNCIA DA INFORMAÇÃO (ONLINE)<sup></sup>, v. 49, p. 245-257, 2020. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=15188353&amp;volume=49&amp;issue=&amp;paginaInicial=245&amp;titulo=Modelo populacional para análise de genealogia acadêmica: Evidências sobre crescimento acadêmico no Brasil&amp;sequencial=1&amp;nomePeriodico=CIÊNCIA DA INFORMAÇÃO (ONLINE)" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">3.801</span><span class="informacao-artigo" data-tipo-ordenacao="importancia">1</span><span class="informacao-artigo" data-tipo-ordenacao="autor">DAMACENO, RAFAEL J. P.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2019</span>
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s11192-019-03023-0" target="_blank" tabindex="121"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2552938367742788" target="_blank" tabindex="122">DAMACENO, RAFAEL J. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="123">ROSSI, LUCIANO</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6156509933307243" target="_blank" tabindex="124">MUGNAINI, ROGÉRIO</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4727357182510680" target="_blank" tabindex="125">MENA-CHALCO, JESÚS P.</a> . The Brazilian academic genealogy: evidence of advisor-advisee relationships through quantitative analysis. SCIENTOMETRICS (ONLINE)<sup><img id="15882861_2" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="15882861" original-title="SCIENTOMETRICS (1588-2861)<br />Fator de impacto (JCR 2021): 3.801"></sup>, v. -, p. -, 2019. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1007/s11192-019-03023-0&amp;issn=15882861&amp;volume=-&amp;issue=&amp;paginaInicial=-&amp;titulo=The Brazilian academic genealogy: evidence of advisor-advisee relationships through quantitative analysis&amp;sequencial=2&amp;nomePeriodico=SCIENTOMETRICS (ONLINE)" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000463637600015&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">10</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">0.604</span><span class="informacao-artigo" data-tipo-ordenacao="importancia">3</span><span class="informacao-artigo" data-tipo-ordenacao="autor">VIANA, LAURA CRISTINA SIMÕES</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2019</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/1678-9865201931e180073" target="_blank" tabindex="126"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2318971052179146" target="_blank" tabindex="127">VIANA, LAURA CRISTINA SIMÕES</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9981356658414577" target="_blank" tabindex="128">SOUZA, SHEILA MARIA FERRAZ MENDONÇA DE</a> ; <b>DAMACENO, RAFAEL JEFERSON PEZZUTO</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4727357182510680" target="_blank" tabindex="129">MENA-CHALCO, JESÚS PASCUAL</a> . Genealogia acadêmica e sua relação com a trajetória do conhecimento na Escola Nacional de Saúde Pública Sergio Arouca, Fundação Oswaldo Cruz. Transinformacao<sup><img id="23180889_3" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="23180889" original-title="Transinformacao (0103-3786)<br />Fator de impacto (JCR 2021): 0.604"></sup>, v. 31, p. e180073, 2019. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1590/1678-9865201931e180073&amp;issn=23180889&amp;volume=31&amp;issue=&amp;paginaInicial=e180073&amp;titulo=Genealogia acadêmica e sua relação com a trajetória do conhecimento na Escola Nacional de Saúde Pública Sergio Arouca, Fundação Oswaldo Cruz&amp;sequencial=3&amp;nomePeriodico=Transinformacao" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">0.604</span><span class="informacao-artigo" data-tipo-ordenacao="importancia">4</span><span class="informacao-artigo" data-tipo-ordenacao="autor">MUGNAINI, ROGÉRIO</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2019</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/2318-0889201931e190033" target="_blank" tabindex="130"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6156509933307243" target="_blank" tabindex="131">MUGNAINI, ROGÉRIO</a> ; <b>DAMACENO, RAFAEL JEFERSON PEZZUTO</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1689147340536405" target="_blank" tabindex="132">DIGIAMPIETRI, LUCIANO ANTONIO</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4727357182510680" target="_blank" tabindex="133">MENA-CHALCO, JESÚS PASCUAL</a> . Panorama da produção científi ca do Brasil além da indexação: uma análise exploratória da comunicação em periódicos. Transinformacao<sup><img id="23180889_4" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="23180889" original-title="Transinformacao (0103-3786)<br />Fator de impacto (JCR 2021): 0.604"></sup>, v. 31, p. e190033, 2019. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1590/2318-0889201931e190033&amp;issn=23180889&amp;volume=31&amp;issue=&amp;paginaInicial=e190033&amp;titulo=Panorama da produção científi ca do Brasil além da indexação: uma análise exploratória da comunicação em periódicos&amp;sequencial=4&amp;nomePeriodico=Transinformacao" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">4.373</span><span class="informacao-artigo" data-tipo-ordenacao="importancia">5</span><span class="informacao-artigo" data-tipo-ordenacao="autor">ROSSI, LUCIANO</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2018</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.joi.2018.08.004" target="_blank" tabindex="134"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="135">ROSSI, LUCIANO</a> ; <b>DAMACENO, RAFAEL J.P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5562563544119435" target="_blank" tabindex="136">FREIRE, IGOR L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7069264281185562" target="_blank" tabindex="137">BECHARA, ETELVINO J.H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4727357182510680" target="_blank" tabindex="138">MENA-CHALCO, JESÚS P.</a> . Topological metrics in academic genealogy graphs. Journal of Informetrics<sup><img id="17511577_5" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="17511577" original-title="Journal of Informetrics (1751-1577)<br />Fator de impacto (JCR 2021): 4.373"></sup>, v. 12, p. 1042-1058, 2018. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1016/j.joi.2018.08.004&amp;issn=17511577&amp;volume=12&amp;issue=&amp;paginaInicial=1042&amp;titulo=Topological metrics in academic genealogy graphs&amp;sequencial=5&amp;nomePeriodico=Journal of Informetrics" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000451074800003&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">7</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia">6</span><span class="informacao-artigo" data-tipo-ordenacao="autor">ROSSI, L.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2018</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="139">ROSSI, L.</a> ; <b>DAMACENO, RAFAEL J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4727357182510680" target="_blank" tabindex="140">MENA-CHALCO, JESÚS P.</a> . Genealogia acadêmica: um novo olhar sobre impacto acadêmico de pesquisadores. Parcerias Estratégicas<sup></sup>, v. 23, p. 197-212, 2018. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=21769729&amp;volume=23&amp;issue=&amp;paginaInicial=197&amp;titulo=Genealogia acadêmica: um novo olhar sobre impacto acadêmico de pesquisadores&amp;sequencial=6&amp;nomePeriodico=Parcerias Estratégicas" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">2.629</span><span class="informacao-artigo" data-tipo-ordenacao="importancia">2</span><span class="informacao-artigo" data-tipo-ordenacao="autor">DAMACENO, RAFAEL JEFERSON PEZZUTO</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2017</span>
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s10209-017-0540-1" target="_blank" tabindex="141"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2552938367742788" target="_blank" tabindex="142">DAMACENO, RAFAEL JEFERSON PEZZUTO</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7111526592323456" target="_blank" tabindex="143">BRAGA, JULIANA CRISTINA</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4727357182510680" target="_blank" tabindex="144">MENA-CHALCO, JESÚS PASCUAL</a> . Mobile device accessibility for the visually impaired: problems mapping and recommendations. UNIVERSAL ACCESS IN THE INFORMATION SOCIETY (INTERNET)<sup><img id="16155297_7" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="16155297" original-title="Universal Access in the Information Society (1615-5297)<br />Fator de impacto (JCR 2021): 2.629"></sup>, v. 17, p. 1-15, 2017. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1007/s10209-017-0540-1&amp;issn=16155297&amp;volume=17&amp;issue=&amp;paginaInicial=1&amp;titulo=Mobile device accessibility for the visually impaired: problems mapping and recommendations&amp;sequencial=7&amp;nomePeriodico=UNIVERSAL ACCESS IN THE INFORMATION SOCIETY (INTERNET)" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000434862700014&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">22</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">0.0</span><span class="informacao-artigo" data-tipo-ordenacao="importancia">7</span><span class="informacao-artigo" data-tipo-ordenacao="autor">DAMACENO, R. J. P.;DAMACENO, RAFAEL;DAMACENO, RAFAEL JEFERSON PEZZUTO;DAMACENO, RAFAEL J. P.;DAMACENO, RAFAEL J.P.;DAMACENO, RAFAEL J. PEZZUTO</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S0103-05822009000200004" target="_blank" tabindex="145"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2552938367742788" target="_blank" tabindex="146">DAMACENO, R. J. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2552938367742788" target="_blank" tabindex="147">MARTINS, P. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2552938367742788" target="_blank" tabindex="148">DEVINCENZI, M. U.</a> . Estado nutricional de crianças atendidas na rede pública de saúde do município de Santos. REVISTA PAULISTA DE PEDIATRIA (IMPRESSO)<sup><img id="01030582_8" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="01030582" original-title="Revista Paulista de Pediatria (0103-0582)<br />Fator de impacto (JCR 2021): 0.0"></sup>, v. 27, p. 139-147, 2009. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1590/S0103-05822009000200004&amp;issn=01030582&amp;volume=27&amp;issue=&amp;paginaInicial=139&amp;titulo=Estado nutricional de crianças atendidas na rede pública de saúde do município de Santos&amp;sequencial=8&amp;nomePeriodico=REVISTA PAULISTA DE PEDIATRIA (IMPRESSO)" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="149"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6156509933307243" target="_blank" tabindex="150">MUGNAINI, ROGÉRIO</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9007635272731244" target="_blank" tabindex="151">SANTANNA FILHO, M. J.</a> ; <b>DAMACENO, R. J. P.</b> . Área de biodiversidade e a produção sobre a Amazônia: Especialidade e centralidade de PPGs. In: Encontro Brasileiro de Bibliometria e Cientometria, 2022, Maceió. Métricas responsáveis: desafios e oportunidades para a pesquisa e avaliação da ciência e tecnologia, 2022. v. 8. p. 600-607. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6156509933307243" target="_blank" tabindex="152">MUGNAINI, ROGÉRIO</a> ; <b>DAMACENO, RAFAEL J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4727357182510680" target="_blank" tabindex="153">MENA-CHALCO, JESÚS P.</a> . An empirical analysis on the relationship between publications and academic genealogy. In: 17th International Conference on Scientometrics &amp; Informetrics (ISSI 2019), 2019, Roma. Proceedings of the 17th International Conference on Scientometrics &amp; Informetrics (ISSI 2019), 2019. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.5540/03.2018.006.01.0370" target="_blank" tabindex="154"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="155">ROSSI, LUCIANO</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5562563544119435" target="_blank" tabindex="156">FREIRE, IGOR LEITE</a> ; <b>DAMACENO, RAFAEL J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4727357182510680" target="_blank" tabindex="157">MENA-CHALCO, JESUS P.</a> . Genealogia acadêmica dos doutores atuantes em matemática: um mapeamento macro na ciência brasileira. In: CNMAC 2017  XXXVII Congresso Nacional de Matemática Aplicada e Computacional, 2018, São José dos Campos, 2017. v. 6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/3192714.3192838" target="_blank" tabindex="158"></a>DE OLIVEIRA, BRUNA ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7111526592323456" target="_blank" tabindex="159">BRAGA, JULIANA CRISTINA</a> ; <b>DAMACENO, RAFAEL J. PEZZUTO</b> . Application for the configuration and adaptation of the Android operating system for the visually impaired. In: the Internet of Accessible Things, 2018, Lyon. Proceedings of the Internet of Accessible Things on   - W4A '18, 2018. p. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.13140/RG.2.2.18988.16005" target="_blank" tabindex="160"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2552938367742788" target="_blank" tabindex="161">DAMACENO, R. J. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1343302903420183" target="_blank" tabindex="162">HADDAD, E. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4727357182510680" target="_blank" tabindex="163">MENA-CHALCO, J. P.</a> . Formação, endogenia e influência institucional na academia brasileira: Uma análise da absorção de doutores nas instituições de ensino superior. In: 6º Encontro Brasileiro de Bibliometria e Cientometria (EBBC), 2018, São Paulo. 6º Encontro Brasileiro de Bibliometria e Cientometria (EBBC), 2018. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2552938367742788" target="_blank" tabindex="164">DAMACENO, R. J. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="165">ROSSI, L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4727357182510680" target="_blank" tabindex="166">MENA-CHALCO, JESUS P.</a> . Identification of the Brazilian academic roots through mining advisor-advisee relationships. In: Symposium on Knowledge Discovery, Mining and Learning - KDMiLe, 2018, São Paulo. Proceedings of the 6th Symposium on Knowledge Discovery, Mining and Learning. São Paulo: IBM Research Brazil, 2018. p. 1-187. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="167">ROSSI, L.</a> ; <b>DAMACENO, R. J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4727357182510680" target="_blank" tabindex="168">MENA-CHALCO, J. P.</a> . Genealogia acadêmica: Um novo olhar sobre impacto acadêmico de pesquisadores. In: I Seminário de Avaliação de Políticas de CT&amp;I, 2018, Brasília. Anais do I Seminário de Avaliação de Políticas de CT&amp;I, 2018. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2552938367742788" target="_blank" tabindex="169">DAMACENO, R. J. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="170">ROSSI, L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4727357182510680" target="_blank" tabindex="171">MENA-CHALCO, J. P.</a> . Identificação do grafo de genealogia acadêmica de pesquisadores: Uma abordagem baseada na Plataforma Lattes. In: 32° Simpósio Brasileiro de Banco de Dados, 2017, Uberlândia. SBBD Proceedings 32nd Brazilian Symposium on Databases, 2017. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/3033701.3033703" target="_blank" tabindex="172"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2552938367742788" target="_blank" tabindex="173">DAMACENO, RAFAEL JEFERSON PEZZUTO</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7111526592323456" target="_blank" tabindex="174">BRAGA, JULIANA CRISTINA</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4727357182510680" target="_blank" tabindex="175">CHALCO, JESÚS PASCUAL MENA</a> . Mobile Device Accessibility for the Visually Impaired. In: the 15th Brazilian Symposium, 2016, São Paulo. Proceedings of the 15th Brazilian Symposium on Human Factors in Computer Systems  - IHC '16. New York: ACM Press, 2016. p. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.5753/cbie.sbie.2015.722" target="_blank" tabindex="176"></a>SILVA, JANAINA ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7111526592323456" target="_blank" tabindex="177">BRAGA, JULIANA CRISTINA</a> ; <b>DAMACENO, RAFAEL</b> . Estudo de Aplicativos Móveis para Deficientes Visuais no Âmbito Acadêmico. In: XXVI Simpósio Brasileiro de Informática na Educação, 2015, Maceió, 2015. p. 722. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.13140/RG.2.2.25335.42408" target="_blank" tabindex="178"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2552938367742788" target="_blank" tabindex="179">BRAGA, J. C.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2552938367742788" target="_blank" tabindex="180">DAMACENO, R. J. P.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2552938367742788" target="_blank" tabindex="181">LEME, R. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2552938367742788" target="_blank" tabindex="182">DOTTA, S.</a> . Accessibility Study of Rich Web Interface Components. In: ACHI 2012, The Fifth International Conference on Advances in Computer-Human Interactions, 2012, Valência / Espanha. The Fifth International Conference on Advances in Computer-Human Interactions, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.13140/RG.2.2.21979.98083" target="_blank" tabindex="183"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2552938367742788" target="_blank" tabindex="184">BRAGA, J. C.</a> ; CAMPI JR., A. C. C. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2552938367742788" target="_blank" tabindex="185">DAMACENO, R. J. P.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2552938367742788" target="_blank" tabindex="186">ALBERNAZ, N. H. C.</a> . Estudo e relato sobre a utilização da tecnologia pelos deficientes visuais. In: 11th Brazilian Symposium on Human Factors in Computing Systems, 2012, Cuiabá. IHC '12 Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems, 2012. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="187"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KAMIENSKI, A. V. ; <b>DAMACENO, RAFAEL J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4727357182510680" target="_blank" tabindex="188">MENA-CHALCO, JESÚS P.</a> . Prestígio em grafos de genealogia acadêmica: Uma proposta baseada em PageRank. In: Anais do VIII Workshop Brasileiro de Análise de Redes Sociais e Mineração, 2019, Belém - PA. 2019: Anais do VIII Workshop Brasileiro de Análise de Redes Sociais e Mineração. Porto Alegre: Sociedade Brasileira de Computação, 2019. p. 167-172. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="189"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2552938367742788" target="_blank" tabindex="190">DAMACENO, R. J. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4727357182510680" target="_blank" tabindex="191">MENA-CHALCO, JESÚS PASCUAL</a> . O rastro acadêmico do Professor César Lattes. In: I Workshop @NUVEM UFABC, 2017, Santo André. I Workshop @NUVEM UFABC, 2017. </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica" tabindex="192"></a><br class="clear"><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="RedesSociais" tabindex="193"></a>Redes sociais, websites e blogs</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2552938367742788" target="_blank" tabindex="194">DAMACENO, RAFAEL J. P.</a></b>; TRETTEL, G. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4727357182510680" target="_blank" tabindex="195">MENA-CHALCO, JESÚS P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5945879465310813" target="_blank" tabindex="196">LENT, R.</a> . Plataforma CPE. 2019; Tema:
+							Ciência para Educação. (Site). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2552938367742788" target="_blank" tabindex="197">DAMACENO, RAFAEL J. P.</a></b>; SOARES, T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="198">ROSSI, LUCIANO</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4727357182510680" target="_blank" tabindex="199">MENA-CHALCO, JESÚS P.</a> . Plataforma Acácia. 2018; Tema:
+							Genealogia Acadêmica do Brasil. (Site). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Bancas" tabindex="200">
+<h1 tabindex="0">Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho" tabindex="201"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Qualificações de Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">STRAFORINI, R.; <b>DAMACENO, RAFAEL JEFERSON PEZZUTO</b>; PINHEIRO, A. C..  Participação em banca de Pedro Henrique de Souza Rafael. Genealogia Acadêmica, Trajetórias e Estratégias na Constituição da área Ensino de Geografia como uma Comunidade Epistêmica. 2020. Exame de qualificação (Mestrando em Programa de Pós-Graduação em Geografia)  - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear"><br class="clear"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="PotencialInovacao" tabindex="202">
+<h1 tabindex="0">Inovação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProjetosPesquisaPI" tabindex="203"></a><br class="clear"><div class="inst_back">
+<b>Projetos de pesquisa</b>
+</div>
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Projeto de Gestos Para Pessoas com Deficiência Visual: Uma Abordagem Baseada em Telas de Toque" tabindex="204"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto de Gestos Para Pessoas com Deficiência Visual: Uma Abordagem Baseada em Telas de Toque<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Mestrado acadêmico: (1) . <br class="clear"><br class="clear">Integrantes: Rafael Jeferson Pezzuto Damaceno - Integrante / Juliana Cristina Braga - Coordenador.<br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA" tabindex="205">
+<h1 tabindex="0">Educação e Popularização de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="RedesSociaisEPCTA" tabindex="206"></a><br class="clear"><div class="inst_back">
+<b>Redes sociais, websites e blogs </b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2552938367742788" target="_blank" tabindex="207">DAMACENO, RAFAEL J. P.</a></b>; SOARES, T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="208">ROSSI, LUCIANO</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4727357182510680" target="_blank" tabindex="209">MENA-CHALCO, JESÚS P.</a> . Plataforma Acácia. 2018; Tema:
+							Genealogia Acadêmica do Brasil. (Site). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><br class="clear"><div class="rodape-cv">Página gerada pelo Sistema Currículo Lattes em 30/06/2023 às 17:16:08</div><br class="clear"><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=2552938367742788" target="_blank" class="button" tabindex="210"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()" tabindex="211"><span class="mini-ico mini-ico-list"></span>Imprimir Currículo</a>
+</div><br class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop" style="display: block;">
+<a href="javascript:void(0)" class="topo-width center" tabindex="212">
+<div class="id-orgao">
+<span>CNPq</span> | Uma agência do Ministério da Ciência, Tecnologia e Inovação</div>
+</a>
+</div>
+
+
+<div id="menu-dados-gerais" class="megamenu" _megamenupos="0pos" style="z-index: 1001; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#Identificacao" tabindex="11">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco" tabindex="12">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas" tabindex="13">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-formacao" class="megamenu" _megamenupos="1pos" style="z-index: 1002; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao" tabindex="15">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar" tabindex="16">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-atuacao" class="megamenu" _megamenupos="2pos" style="z-index: 1003; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional" tabindex="18">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico" tabindex="19">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao" tabindex="20">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-projetos" class="megamenu" _megamenupos="3pos" style="z-index: 1004; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa" tabindex="22">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao" tabindex="23">Projetos de extensão</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-producoes" class="megamenu" _megamenupos="4pos" style="z-index: 1005; display: none;">
+		
+		<div class="column"><div class="subtitMenu"><a href="#ProducaoBibliografica" tabindex="25">Produção Bibliográfica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos" tabindex="26">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos" tabindex="27">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos" tabindex="28">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas" tabindex="29">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso" tabindex="30">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho" tabindex="31">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="32">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="33">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="34">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="35">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="#ProducaoTecnica" tabindex="36">Produção Técnica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria" tabindex="37">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente" tabindex="38">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos" tabindex="39">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas" tabindex="40">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos" tabindex="41">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="42">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="43">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="44">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="45">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica" tabindex="46">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="47">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas" tabindex="48">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="49">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais" tabindex="50">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas" tabindex="51">Outras produções técnicas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="#ProducaoArtisticaCultural" tabindex="52">Produção Artística/Cultural</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas" tabindex="53">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica" tabindex="54">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais" tabindex="55">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas" tabindex="56">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-potencialInovacao" class="megamenu" _megamenupos="5pos" style="z-index: 1006; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#PatentePI" tabindex="58">Patente</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoPI" tabindex="59">Programa de computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarProtegidaPI" tabindex="60">Cultivar protegida</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarRegistradaPI" tabindex="61">Cultivar registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#DesenhoIndustrialRegistradoPI" tabindex="62">Desenho industrial registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#MarcaRegistradaPI" tabindex="63">Marca registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#TopografiaCircuitoIntegradoRegistradaPI" tabindex="64">Topografia de circuito integrado registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorSemRegistroPI" tabindex="65">Programa de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosPI" tabindex="66">Produtos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicasPI" tabindex="67">Processos ou técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosPesquisaPI" tabindex="68">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoDesenvolvimentoTecnologicoPI" tabindex="69">Projeto de desenvolvimento tecnológico</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoExtensaoPI" tabindex="70">Projeto de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetosPI" tabindex="71">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-educacaoPopularizacaoCTA" class="megamenu" _megamenupos="6pos" style="z-index: 1007; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA" tabindex="73">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA" tabindex="74">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA" tabindex="75">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA" tabindex="76">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA" tabindex="77">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA" tabindex="78">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA" tabindex="79">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA" tabindex="80">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA" tabindex="81">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA" tabindex="82">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA" tabindex="83">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA" tabindex="84">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA" tabindex="85">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA" tabindex="86">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-bancas" class="megamenu" _megamenupos="7pos" style="z-index: 1008; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho" tabindex="88">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes" tabindex="89">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-informacoes-complementares" class="megamenu" _megamenupos="8pos" style="z-index: 1009; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&amp;id=K4265658Z1&amp;tipo=completo&amp;idiomaExibicao=1" tabindex="91">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div></body></html>

@@ -1,0 +1,11 @@
+lxml==4.9.2
+matplotlib==3.7.1
+mechanize==0.4.8
+numpy==1.24.0
+pandas==2.0.3
+Pillow==9.0.1
+pygraphviz==1.11
+python_Levenshtein==0.21.1
+pytidylib==0.3.2
+Requests==2.31.0
+scipy==1.11.1

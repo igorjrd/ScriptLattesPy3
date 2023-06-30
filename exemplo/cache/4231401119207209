@@ -1,0 +1,1953 @@
+<html lang="pt-BR"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Currículos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="currículo,curriculo,curriculum,cv,vitae,lattes,produção,producao,científica,cientifica,Brasil" http-equiv="keywords">
+<title>Currículo do Sistema de Currículos Lattes (Luciano Rossi)</title>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});	
+      				  
+<!--       		$( function() { -->
+<!-- 			    $( document ).tooltip(); -->
+<!-- 			 } ); -->
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</head>
+<body>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido" tabindex="0"> Currículo Lattes - Busca Textual - Visualização do Currículo </h1>
+<a href="http://lattes.cnpq.br/" title="Currículo Lattes" target="_blank" tabindex="1"><img title="Currículo Lattes" alt="Currículo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header menuScroll" style="position: absolute; top: 911px;">
+<span class="tituloFlow">Formação acadêmica/titulação</span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4384823Y3&amp;idiomaExibicao=2" class="btn-br" tabindex="2">English</a><a title="Imprimir currículo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()" tabindex="3"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)" tabindex="4"></a><a title="Fonte padrão" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)" tabindex="5"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)" tabindex="6"></a><a href="download.do?metodo=apresentar&amp;idcnpq=4231401119207209" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" tabindex="7"></a><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php" tabindex="8"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/" tabindex="9">
+<h2 tabindex="0">CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type="text/javascript">menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade" tabindex="10" _megamenupos="0pos"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="14" _megamenupos="1pos"><span></span>Formação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="17" _megamenupos="2pos"><span></span>Atuação</a>
+		
+	
+		
+		
+		
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador" tabindex="20" _megamenupos="3pos"><span></span>Projetos</a>
+		
+	<script type="text/javascript">menu.iniciar("projetos");</script>
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador" tabindex="22" _megamenupos="4pos"><span></span>Produções</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador" tabindex="55" _megamenupos="5pos"><span></span>Educação e Popularização de C &amp; T</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador" tabindex="70" _megamenupos="6pos"><span></span>Bancas</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("citacoes");</script>
+		
+		
+		<a id="ancora-menu-citacoes" href="#Citacoes" class="acessibilidade separador" tabindex="73" _megamenupos="7pos"><span></span>Citações</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador" tabindex="78" _megamenupos="8pos"><span></span>+</a>
+		
+	
+		
+		
+		
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4384823Y3"><div class="infpessoa">
+<h2 class="nome" tabindex="0">Luciano Rossi</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endereço para acessar este CV: http://lattes.cnpq.br/4231401119207209</li>
+<li>
+<span class="img_identy icone-informacao-autor"></span>ID Lattes: <span style="font-weight: bold; color: #326C99;">4231401119207209</span>
+</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>Última atualização do currículo em 09/09/2022</li>
+</ul>
+</div><br class="clear"><div class="title-wrapper">
+<h1 class="ui-hidden" tabindex="0"></h1>
+<hr class="separator">
+<p class="resumo">Doutorado e mestrado em ciência da computação pela Universidade Federal do ABC (2019, 2015), MBA em Gerenciamento de Projetos pela Fundação Getúlio Vargas (2013) e Bacharel em Matemática com Ênfase em Informática pela Fundação Santo André - FAFIL (2000). 
+Atuação como professor nos cursos de graduação em Ciência da Computação, Tecnologia em Análise e Desenvolvimento de Sistemas e Sistemas de Informação.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Identificacao" tabindex="80">
+<h1 tabindex="0">Identificação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Luciano Rossi<img src="/buscatextual/images/icon-rfb.png" class="alinhamento-texto-img" title="Dados cadastrais validados junto a Receita Federal do Brasil"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ROSSI, L.;ROSSI, LUCIANO</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Lattes iD</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><img src="./images/v2/icone_lattes.png" style="width: 15px; margin-right: 10px;">http://lattes.cnpq.br/4231401119207209</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Orcid iD </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><a class="icons-aviso titBottom icons-aviso-help icon-cor" href="javascript:void(0)" rel="tooltip" title="O que é ORCID? ORCID é uma organização independente sem fins lucrativos que fornece um identificador persistente - um ORCID iD - que distingue de outros pesquisadores e um mecanismo para conjuntos de resultados e atividades de pesquisa ao seu ID. O ORCID está bem localizado em editores, financiadores, instituições e outros serviços relacionados à pesquisa. Saiba mais em orcid.org " style="font-weight:bold;font-size:+1;color:blue;position:relative;top:-3px;" tabindex="81">?</a> <img src="./images/v2/icone_orcid.png" style="width: 15px; margin-right: 10px;"><a href="https://orcid.org/0000-0002-3841-2321" tabindex="82">https://orcid.org/0000-0002-3841-2321</a></div>
+</div>
+</div>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Endereco" tabindex="83">
+<h1 tabindex="0">Endereço</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS, Centro Universitário FEI. <br class="clear">Avenida Humberto Alencar Castelo Branco, 3972<br class="clear">Independência<br class="clear">08060070 - São Bernardo do Campo, SP - Brasil<br class="clear">Telefone: (011) 43532910<br class="clear">URL da Homepage: <a target="blank" href="http://www.fei.edu.br" tabindex="84">www.fei.edu.br</a></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao" tabindex="85">
+<h1 tabindex="0">Formação acadêmica/titulação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - 2019</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Ciência da Computação. <br class="clear">Universidade Federal do ABC, UFABC, Brasil.
+		
+	<br class="clear">Título: Métodos computacionais baseados em genealogia acadêmica: Contribuições para a análise do fluxo de tópicos do conhecimento científico, Ano de obtenção: 2019. <br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/4727357182510680" tabindex="86"><img src="images/curriculo/logolattes.gif"></a>Jesús Pascual Mena Chalco. <br class="clear">Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear">Palavras-chave: fluxo do conhecimento; caminhos da ciência; tópicos do conhecimento; genealogia acadêmica.<br class="clear">Grande área: Ciências Exatas e da Terra</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ciência da Computação<span class="ajaxCAPES" data-param="&amp;codigoCurso=33144010008P1&amp;nivelCurso=M"> (Conceito CAPES 4)</span>. <br class="clear">Universidade Federal do ABC, UFABC, Brasil.
+		
+	<br class="clear">Título: Caracterização de grafos de genealogia acadêmica por meio de métricas topológicas, Ano de Obtenção: 2015.<br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/4727357182510680" tabindex="87"><img src="images/curriculo/logolattes.gif"></a>Jesús Pascual Mena Chalco.<br class="clear">Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear">Grande área: Ciências Exatas e da Terra</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em MBA em Gerenciamento de Projetos.  (Carga Horária: 432h). <br class="clear">Fundação Getúlio Vargas, FGV, Brasil.
+		
+	<br class="clear">Título: Eficiência Energética em Indústria de Bebidas. <br class="clear">Orientador: José Angelo Santos do Valle. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Matemática com Ênfase em Informática. <br class="clear">Centro Universitário Fundação Santo André, CUFSA, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoComplementar" tabindex="88">
+<h1 tabindex="0">Formação Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AtuacaoProfissional" tabindex="89">
+<h1 tabindex="0">Atuação Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear"><div class="inst_back">
+<b>FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS, FEI, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2022 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor, Carga horária: 20</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Universidade Federal do ABC, UFABC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2019</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Aluno</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2017 - 02/2018</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Centro de Matemática, Computação e Cognição. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear">Estágio em docência. </div>
+</div><br class="clear"><div class="inst_back">
+<b>Universidade Cruzeiro do Sul, UNICSUL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2019 - 2022</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor Assistente, Carga horária: 20</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2021 - 08/2022</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Computabilidade e Complexidade de Algoritmos<br class="clear">Laboratório de Desenvolvimento de Algoritmos<br class="clear">Paradigmas de Linguagens de Programação<br class="clear">Técnicas de Desenvolvimento de Algoritmos<br class="clear">Tendências em Ciência da Computação<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2021 - 07/2021</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Linguagens Formais e Autômatos<br class="clear">Lógica Computacional<br class="clear">Matemática Discreta<br class="clear">Pensamento Computacional<br class="clear">Teoria dos Grafos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2021 - 07/2021</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Análise e Desenvolvimento de Sistemas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Organização e Arquitetura de Computadores<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2020 - 12/2020</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Laboratório de Desenvolvimento de Algoritmos<br class="clear">Paradigmas de Linguagens de Programação<br class="clear">Técnicas de Desenvolvimento de Algoritmos<br class="clear">Tendências em Ciência da Computação<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2020 - 12/2020</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Análise e Desenvolvimento de Sistemas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Análise e Projeto de Sistemas II<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2020 - 06/2020</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Organização e Arquitetura de Computadores<br class="clear">Programação Orientada a Objetos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2020 - 06/2020</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Análise e Desenvolvimento de Sistemas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Engenharia de Software<br class="clear">Sistemas Operacionais<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2019 - 12/2019</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Paradigmas de Linguagem de Programação<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2019 - 12/2019</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Análise e Desenvolvimento de Sistemas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Programação Orientada a Objetos<br class="clear">Programação web<br class="clear">Sistemas Cliente Servidor<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Universidade do Grande ABC, UNIABC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - 2019</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Docente, Carga horária: 14</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2018 - 01/2019</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Inteligência Artificial<br class="clear">Modelagem de Dados<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2018 - 06/2018</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Algoritmos e Estruturas de Dados<br class="clear">Inteligência Artificial<br class="clear">Linguagens Formais e Autômatos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2017 - 12/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Algoritmos e estruturas de dados<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2017 - 06/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Análise de computabilidade e complexidade de algoritmos<br class="clear">Linguagens formais e autômatos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2017 - 06/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Desenvolvimento de sistemas de informação<br class="clear">Inteligência artificial<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2016 - 12/2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Algoritmos e estrutura de dados<br class="clear">Análise de computabilidade e complexidade de algoritmos<br class="clear">Inteligência artificial<br class="clear">Programação aplicada à ciência da computação<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2016 - 06/2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Sistemas de Computação e de Informação<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2016 - 06/2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Programação Aplicada a Ciência da Computação<br class="clear">Sistemas e Aplicações Multimídia<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2016 - 06/2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Gestão da Tecnologia da Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Novas Tecnologias<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2015 - 12/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Linguagem de Programação Comercial<br class="clear">Probabilidade e Estatística<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2015 - 12/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Matemática Aplicada III<br class="clear">Algoritmos e Estrutura de Dados<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2015 - 06/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Matemática Aplicada II<br class="clear">Matemática Aplicada IV<br class="clear">Sistemas e Aplicações Multimídia<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2015 - 06/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Análise e Desenvolvimento de Sistemas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Algoritmos e Técnicas de Programação<br class="clear">Programação Orientada a Objeto<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2015 - 06/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Análise e Desenvolvimento de Sistemas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Matemática para Informática<br class="clear">Probabilidade e Estatística<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>SENAI - Departamento Regional de São Paulo, SENAI/DR/SP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Prestador de serviço, Enquadramento Funcional: Professor, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professor nos cursos de formação continuada nas disciplinas: Estatística Aplicada, Matemática Financeira, Informática, Gestão da Qualidade.</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Centro Universitário Paulistano, UniPaulistana, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2019 - 2019</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor, Carga horária: 10</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2019 - 06/2019</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Análise e Desenvolvimento de Sistemas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Análise de Sistemas I<br class="clear">Análise de Sistemas II<br class="clear">Estrutura de Dados<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Serviço de Apoio às Micro e Pequenas Empresas de São Paulo, SEBRAE/SP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Prestador de Serviços, Enquadramento Funcional: Consultor em Gestão, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Realização de consultoria em micro e pequenas empresas nas áreas de gestão, qualidade, processos produtivos e projetos.</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Volkswagen do Brasil - Matriz, VW, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1988 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Analista de Processos, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosPesquisa" tabindex="90">
+<h1 tabindex="0">Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Documentação e análise de árvores de genealogia acadêmica do Brasil (Projeto Universal 2014 em Ciência da Informação)" tabindex="91"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2018</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Documentação e análise de árvores de genealogia acadêmica do Brasil (Projeto Universal 2014 em Ciência da Informação)<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: No decorrer do tempo a ciência evolui em diferentes ambientes e ritmos que podem ser dados por incrementos graduais ou por revoluções que permitiram responder os principais desafios de cada época. No ambiente acadêmico, esta evolução é facilitada pelos pesquisadores orientadores ou formadores de recursos humanos nos níveis de graduação, mestrado, doutorado ou pós-doutorado. Sob este aspecto, dada a dedicação à formação de cientistas, muitos pesquisadores acadêmicos tiveram um papel extremamente importante na ciência. Até hoje, com a finalidade de preservar a história acadêmica, poucos empreendimentos foram realizados para registrar e documentar a influência que cada pesquisador têm exercido sobre seus orientandos ao longo dos anos. Nesse contexto, a genealogia acadêmica é utilizada para documentar e organizar, através de uma árvore (ou conjuntos de árvores) de genealogia, pesquisadores por meio de suas relações (linhagem) de orientação ou supervisão acadêmica. No Brasil, a identificação dos pesquisadores ancestrais é uma tarefa desafiadora pois atualmente não existem repositórios que permitam o registro de informações da linhagem acadêmica de pesquisadores associados a diferentes áreas de atuação acadêmica. Este projeto concentra-se no desenvolvimento de uma metodologia computacional para a geração e análise de árvores de genealogia acadêmica para pesquisadores que formaram ou tiveram formação no Brasil.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (2) . <br class="clear"><br class="clear">Integrantes: Luciano Rossi - Integrante / Jesús Pascual Mena Chalco - Coordenador / Etelvino José Henriques Bechara - Integrante.<br class="clear">Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.<br class="clear">Número de produções C, T &amp; A: 3</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AreasAtuacao" tabindex="92">
+<h1 tabindex="0">Áreas de atuação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Sociais Aplicadas / Área: Administração / Subárea: Gerenciamento de Projetos. <br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Idiomas" tabindex="93">
+<h1 tabindex="0">Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProducoesCientificas" tabindex="94">
+<h1 tabindex="0">Produções</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica" tabindex="95"></a><br class="clear"><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes" tabindex="96"></a><div class="cita-artigos"> <b>Citações</b> </div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">SCOPUS</div><div class="trab">Total de trabalhos:3</div><div class="cita">Total de citações:13</div><div class="detalhes">Rossi, Luciano&nbsp;&nbsp;Data:&nbsp;18/06/2020</div></div></div></div></div><br class="clear"><div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos" tabindex="97"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear"><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronológica </option><option value="2"> Número de citações Web of science </option><option value="3"> Número de citações Scopus </option><option value="4"> Numero de citações Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Importância </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">3.801</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">DAMACENO, RAFAEL J. P.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2019</span>
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s11192-019-03023-0" target="_blank" tabindex="98"></a>DAMACENO, RAFAEL J. P. ; <b>ROSSI, L.</b> ; MUGNAINI, R. ; MENA-CHALCO, J. P. . The Brazilian academic genealogy: evidence of advisor-advisee relationships through quantitative analysis. SCIENTOMETRICS<sup><img id="01389130_1" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="01389130" original-title="SCIENTOMETRICS (0138-9130)<br />Fator de impacto (JCR 2021): 3.801"></sup>, v. 119, p. 303-333, 2019. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1007/s11192-019-03023-0&amp;issn=01389130&amp;volume=119&amp;issue=&amp;paginaInicial=303&amp;titulo=The Brazilian academic genealogy: evidence of advisor-advisee relationships through quantitative analysis&amp;sequencial=1&amp;nomePeriodico=SCIENTOMETRICS" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000463637600015&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">10</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">4.373</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">ROSSI, L.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2018</span>
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.joi.2018.08.004" target="_blank" tabindex="99"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="100">ROSSI, L.</a></b>; DAMACENO, RAFAEL J. P. ; FREIRE, IGOR L. ; BECHARA, E. J. H. ; MENA-CHALCO, JESUS P. . Topological metrics in academic genealogy graphs. Journal of Informetrics<sup><img id="17511577_2" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="17511577" original-title="Journal of Informetrics (1751-1577)<br />Fator de impacto (JCR 2021): 4.373"></sup>, v. 12, p. 1042-1058, 2018. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1016/j.joi.2018.08.004&amp;issn=17511577&amp;volume=12&amp;issue=&amp;paginaInicial=1042&amp;titulo=Topological metrics in academic genealogy graphs&amp;sequencial=2&amp;nomePeriodico=Journal of Informetrics" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000451074800003&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">7</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">0.0</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">ROSSI, L.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2018</span>
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.19132/1808-5245240.172-192" target="_blank" tabindex="101"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="102">ROSSI, L.</a></b>; MENA-CHALCO, JESÚS P. . Mapeamento do conhecimento científico: uma proposta de método baseado em Genealogia Acadêmica. EM QUESTÃO<sup><img id="18085245_3" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="18085245" original-title="Em Questao (1808-5245)<br />Fator de impacto (JCR 2021): 0.0"></sup>, v. 24, p. 172-192, 2018. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.19132/1808-5245240.172-192&amp;issn=18085245&amp;volume=24&amp;issue=&amp;paginaInicial=172&amp;titulo=Mapeamento do conhecimento científico: uma proposta de método baseado em Genealogia Acadêmica&amp;sequencial=3&amp;nomePeriodico=EM QUESTÃO" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">ROSSI, L.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2018</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="103">ROSSI, L.</a></b>; DAMACENO, R. J. P. ; MENA-CHALCO, J. P. . Genealogia acadêmica: um novo olhar sobre impacto acadêmico de pesquisadores. Revista Parcerias Estratégicas<sup></sup>, v. 23, p. 197-212, 2018. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=21769729&amp;volume=23&amp;issue=&amp;paginaInicial=197&amp;titulo=Genealogia acadêmica: um novo olhar sobre impacto acadêmico de pesquisadores&amp;sequencial=4&amp;nomePeriodico=Revista Parcerias Estratégicas" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">4.373</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">ROSSI, LUCIANO</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2017</span>
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.joi.2017.04.001" target="_blank" tabindex="104"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="105">ROSSI, LUCIANO</a></b>; FREIRE, IGOR L. ; MENA-CHALCO, JESÚS P. . Genealogical index: A metric to analyze advisor-advisee relationships. Journal of Informetrics<sup><img id="17511577_5" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="17511577" original-title="Journal of Informetrics (1751-1577)<br />Fator de impacto (JCR 2021): 4.373"></sup>, v. 11, p. 564-582, 2017. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1016/j.joi.2017.04.001&amp;issn=17511577&amp;volume=11&amp;issue=&amp;paginaInicial=564&amp;titulo=Genealogical index: A metric to analyze advisor-advisee relationships&amp;sequencial=5&amp;nomePeriodico=Journal of Informetrics" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000403857200016&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">16</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos" tabindex="106"></a>Livros publicados/organizados ou edições</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="107">ROSSI, L.</a></b>. Pensamento Computacional. 1. ed. Rio de Janeiro: Editora Ciência Moderna, 2022. v. 1. 186p . </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="108"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="109">ROSSI, L.</a></b>; MENA-CHALCO, J. P. ; GOUVEIA, F. C. . A EVOLUÇÃO DA PESQUISA EM CIÊNCIA DA INFORMAÇÃO: Uma análise de três revistas internacionais por Topic Modeling usando LDA. In: 7º Encontro Brasileiro de Bibliometria e Cientometria (EBBC), 2020, Salvador. Encontro Brasileiro de Bibliometria e Cientometria, 2020. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.5540/03.2018.006.01.0370" target="_blank" tabindex="110"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="111">ROSSI, LUCIANO</a></b>; FREIRE, IGOR LEITE ; DAMACENO, RAFAEL J. P. ; MENA-CHALCO, JESUS P. . Genealogia acadêmica dos doutores atuantes em matemática: um mapeamento macro na ciência brasileira. In: CNMAC 2017  XXXVII Congresso Nacional de Matemática Aplicada e Computacional, 2018. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="112">ROSSI, L.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="113">CHALCO, J. P. M.</a> . Criação de grafos de tópicos do conhecimento baseada em genealogia acadêmica. In: 6º Encontro Brasileiro de Bibliometria e Cientometria (6º EBBC), 2018, Rio de Janeiro. 6º Encontro Brasileiro de Bibliometria e Cientometria (6º EBBC), 2018. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DAMACENO, R. J. P. ; <b>ROSSI, L.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="114">CHALCO, J. P. M.</a> . Identification of the Brazilian academic roots through mining advisor-advisee relationships. In: Symposium on Knowledge Discovery, Mining and Learning (KDMiLe), 2018, São Paulo. Symposium on Knowledge Discovery, Mining and Learning (KDMiLe), 2018. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DAMACENO, R. J. P. ; <b>ROSSI, L.</b> ; MENA-CHALCO, JESÚS P. . Identificação do grafo de genealogia acadêmica de pesquisadores: Uma abordagem baseada na Plataforma Lattes. In: Brazilian Symposium on Databases (SBBD 2017), 2017, Uberlândia. Brazilian Symposium on Databases (SBBD 2017), 2017. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.13140/RG.2.1.3373.4241" target="_blank" tabindex="115"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="116">ROSSI, L.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="117">CHALCO, J. P. M.</a> . Índice-h genealógico expandido: Uma medida de impacto em grafos de orientação acadêmica. In: IV Brazilian Workshop on Social Network Analysis and Mining (BrasNam), 2015, Recife. XXXV Congresso da Sociedade Brasileira de Computação (CSBC), 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.13140/RG.2.1.4159.8569" target="_blank" tabindex="118"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="119">ROSSI, L.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="120">CHALCO, J. P. M.</a> . Caracterização de árvores de genealogia acadêmica por meio de métricas em grafos. In: III Brazilian Workshop on Social Network Analysis and Mining (BraSNAM), 2014, Brasília. XXXIV Congresso da Sociedade Brasileira de Computação (CSBC), 2014. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="121"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.13140/RG.2.1.2193.7762" target="_blank" tabindex="122"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="123">ROSSI, L.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="124">CHALCO, J. P. M.</a> . Aos ombros de gigantes: um estudo de genealogia acadêmica dos matemáticos no Brasil.. In: Simpósio de Pesquisa do Grande ABC, 2014, São Bernardo do Campo. Simpósio de Pesquisa do Grande ABC, 2014. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="125"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="126">ROSSI, L.</a></b>; FREIRE, IGOR L. ; MENA-CHALCO, JESÚS P. . A excelência científica está relacionada com o impacto na formação de discípulos?. In: I Workshop @NUVEM UFABC, 2017, Santo André. I Workshop @NUVEM UFABC, 2017. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.13140/RG.2.1.4927.6883" target="_blank" tabindex="127"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="128">ROSSI, L.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="129">CHALCO, J. P. M.</a> . O grafo de genealogia dos matemáticos: coleta de dados e principais características. In: Congresso de Matemática Aplicada e Computacional (CMAC), 2015, Vitória. Proceeding Series of the Brazilian Society of Computational and Applied Mathematics, 2015. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho" tabindex="130"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="131">ROSSI, L.</a></b>. A Genealogia Acadêmica como base para pesquisa em Cientometria. 2018. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica" tabindex="132"></a><br class="clear"><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="RedesSociais" tabindex="133"></a>Redes sociais, websites e blogs</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DAMACENO, R. J. P. ; <b>ROSSI, L.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="134">CHALCO, J. P. M.</a> ; LENT, R. ; TRETTEL, G. M. . Plataforma CpE. 2022; Tema:
+							Ciência para a Educação. (Site). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DAMACENO, R. J. P. ; SOARES, T. ; <b>ROSSI, L.</b> ; MENA-CHALCO, J. P. . Plataforma Acácia. 2018; Tema:
+							Genealogia Acadêmica do Brasil. (Site). </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica" tabindex="135"></a><br class="clear"><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="136">ROSSI, L.</a></b>. Técnicas para converter dados em conhecimento.
+							2021. (Desenvolvimento de material didático ou instrucional - Pós-graduação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="137">ROSSI, L.</a></b>. Ciência de Dados e Aprendizado de Máquina.
+							2021. (Desenvolvimento de material didático ou instrucional - Graduação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="138">ROSSI, L.</a></b>. Redes de computadores e sistemas distribuídos.
+							2021. (Desenvolvimento de material didático ou instrucional - Graduação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="139">ROSSI, L.</a></b>. Pesquisa Operacional.
+							2020. (Desenvolvimento de material didático ou instrucional - Graduação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="140">ROSSI, L.</a></b>. Estruturas de Dados não Lineares.
+							2020. (Desenvolvimento de material didático ou instrucional - Graduação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="141">ROSSI, L.</a></b>. Mineração de dados.
+							2020. (Desenvolvimento de material didático ou instrucional - Graduação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="142">ROSSI, L.</a></b>. Estruturas de Dados Lineares.
+							2020. (Desenvolvimento de material didático ou instrucional - Graduação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="143">ROSSI, L.</a></b>. Computabilidade e Complexidade de Algoritmos.
+							2020. (Desenvolvimento de material didático ou instrucional - Graduação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="144">ROSSI, L.</a></b>. Banco de Dados em Ambiente de Alta Escalabilidade.
+							2020. (Desenvolvimento de material didático ou instrucional - Graduação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="145">ROSSI, L.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="146">CHALCO, J. P. M.</a> . Projeto de Genealogia dos Matemáticos: Uma descrição dos dados registrados no período de 1363 à 2013. 2014. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="147">ROSSI, L.</a></b>. Excel Avançado. 2013. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="148">ROSSI, L.</a></b>. Matemática Financeira. 2012. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Bancas" tabindex="149">
+<h1 tabindex="0">Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho" tabindex="150"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="151">CHALCO, J. P. M.</a>; GOYA, D. H.; <b>ROSSI, L.</b>.  Participação em banca de Yago Sorrilha.Análise da velocidade de orientação em grafos de genealogia acadêmica.
+							2022. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Federal do ABC. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MENA-CHALCO, J. P.; <b>ROSSI, L.</b>; BATISTA JUNIOR, A. A..  Participação em banca de Nilton Queiroz Pinheiro.Método computacional de visualização interativa de grafos de genealogia acadêmica com dados da Plataforma Acácia.
+							2022. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Federal do ABC. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LEDON, M. F. P.; LUZ, C. S. F.; <b>ROSSI, L.</b>.  Participação em banca de Bruno Dias Sousa, Marcelo Freddi e Matheus Silva De Macedo.Sistema de monitoramento doméstico com processamento de imagem para detecção de objetos, pessoas e ambiente.
+							2021. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Cruzeiro do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FRANGO, I.; HERNANDEZ, C. C.; <b>ROSSI, L.</b>.  Participação em banca de Anderson Alcântara Oliveira, Jordan Santos e Matheus Guilher.Sistemas de Recomendação Baseado em Distância para Recomendação de Filmes.
+							2021. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Cruzeiro do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FRANGO, I.; HERNANDEZ, C. C.; <b>ROSSI, L.</b>.  Participação em banca de Igor Souza Tavares, Petrius Henrique Carreiro da Silva e Vin.Aplicativo de Mineração e Análise de Sentimentos de dados do Twitter.
+							2021. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Cruzeiro do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, J. P.; SCHIMIGUEL, J.; <b>ROSSI, L.</b>.  Participação em banca de Mariana Ribeiro Lial.Modificação de um Jogo Digital para conversão em Educacional para o Ensino de Programação de Computadores.
+							2021. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Cruzeiro do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LEDON, M. F. P.; <b>ROSSI, L.</b>; LUZ, C. S. F..  Participação em banca de Renan Soares Carpinelli.Plataforma para gerenciar rotinas pertinentes á aplicação de avaliações.
+							2020. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Cruzeiro do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FRANGO, I.; SILVA, J. P.; <b>ROSSI, L.</b>.  Participação em banca de Marcos Vinícius Martiniano Brasão e Matheus Robert de Olivei.Uso de Computadores Quânticos para Resolução de Problemas NP.
+							2020. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Cruzeiro do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HERNANDEZ, C. C.; ANASTACIO, M. A. S.; <b>ROSSI, L.</b>.  Participação em banca de Andressa Ribeiro Lorêdo dos Santos e Thiago Pereira Cunha.Sistema gerenciador de testes ambulatoriais.
+							2020. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Cruzeiro do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BARBOZA JUNIOR, A. T.; ANASTACIO, M. A. S.; <b>ROSSI, L.</b>.  Participação em banca de Juliana Vieira de Souza e Thiago Pereira de Sousa.Aplicativo para smartphone no auxílio da locomoção de deficientes visuais.
+							2020. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Cruzeiro do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, J. P.; BARBOZA JUNIOR, A. T.; <b>ROSSI, L.</b>.  Participação em banca de Gabriel Gonçalves Beraldo e Marina Jacauna Vieira.Look Up: Um Mod de Jogo de plataforma 2D para ensino e aprendizagem de Estrutura de Dados.
+							2020. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Cruzeiro do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BARBOZA JUNIOR, A. T.; LUZ, C. S. F.; <b>ROSSI, L.</b>.  Participação em banca de Gustavo Teruo Tanabe, Jonathan Lopes da Silva e Marcos Viníc.Assistente virtual como auxílio para coordenações de cursos superiores.
+							2020. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Cruzeiro do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BARBOZA JUNIOR, A. T.; <b>ROSSI, L.</b>; SILVA, V..  Participação em banca de Daniel de Almeida Callado Rodrigues.Aplicação da Computação Forense com uso de IoT.
+							2019. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Cruzeiro do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HERNANDEZ, C. C.; <b>ROSSI, L.</b>; BARBOZA JUNIOR, A. T..  Participação em banca de João Marcos Santos Galvão de Alencar e Vinícius Santana do N.Análise de risco em sistemas de internet banking.
+							2019. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Cruzeiro do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BARBOZA JUNIOR, A. T.; <b>ROSSI, L.</b>; ALBUQUERQUE, A. G..  Participação em banca de Pedro Paulo de Souza Diniz e Phelipe Gabriel Almeida Moraes.Service app, uma aplicação para divulgação de serviços.
+							2019. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Cruzeiro do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HERNANDEZ, C. C.; <b>ROSSI, L.</b>; PAVAO, A..  Participação em banca de Caio S. Pires e William dos S. Souza.Business intelligence aplicada ao ramo de empréstimos.
+							2019. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Cruzeiro do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, I. C. A.; <b>ROSSI, L.</b>; LUZ, C. S. F..  Participação em banca de Gustavo S. de Oliveira, Leonardo V. Sousa e Tiago C. A. S..O uso de grafos no desenvolvimento de aplicativo mobile de transporte escolar.
+							2019. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Cruzeiro do Sul. </div>
+</div>
+<br class="clear"><br class="clear"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA" tabindex="152">
+<h1 tabindex="0">Educação e Popularização de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="LivrosCapitulosEPCTA" tabindex="153"></a><br class="clear"><div class="inst_back">
+<b>Livros e capítulos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4231401119207209" target="_blank" tabindex="154">ROSSI, L.</a></b>. Pensamento Computacional. 1. ed. Rio de Janeiro: Editora Ciência Moderna, 2022. v. 1. 186p . </div>
+</div>
+<br class="clear">
+<a name="RedesSociaisEPCTA" tabindex="155"></a><br class="clear"><div class="inst_back">
+<b>Redes sociais, websites e blogs </b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DAMACENO, R. J. P. ; SOARES, T. ; <b>ROSSI, L.</b> ; MENA-CHALCO, J. P. . Plataforma Acácia. 2018; Tema:
+							Genealogia Acadêmica do Brasil. (Site). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><br class="clear"><div class="rodape-cv">Página gerada pelo Sistema Currículo Lattes em 30/06/2023 às 17:15:17</div><br class="clear"><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=4231401119207209" target="_blank" class="button" tabindex="156"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()" tabindex="157"><span class="mini-ico mini-ico-list"></span>Imprimir Currículo</a>
+</div><br class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop" style="display: block;">
+<a href="javascript:void(0)" class="topo-width center" tabindex="158">
+<div class="id-orgao">
+<span>CNPq</span> | Uma agência do Ministério da Ciência, Tecnologia e Inovação</div>
+</a>
+</div>
+
+
+<div id="menu-dados-gerais" class="megamenu" _megamenupos="0pos" style="z-index: 1001; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#Identificacao" tabindex="11">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco" tabindex="12">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas" tabindex="13">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-formacao" class="megamenu" _megamenupos="1pos" style="z-index: 1002; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao" tabindex="15">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar" tabindex="16">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-atuacao" class="megamenu" _megamenupos="2pos" style="z-index: 1003; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional" tabindex="18">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao" tabindex="19">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-projetos" class="megamenu" _megamenupos="3pos" style="z-index: 1004; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa" tabindex="21">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-producoes" class="megamenu" _megamenupos="4pos" style="z-index: 1005; display: none;">
+		
+		<div class="column"><div class="subtitMenu"><a href="#ProducaoBibliografica" tabindex="23">Produção Bibliográfica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos" tabindex="24">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos" tabindex="25">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos" tabindex="26">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas" tabindex="27">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso" tabindex="28">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho" tabindex="29">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="30">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="31">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="32">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="33">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="#ProducaoTecnica" tabindex="34">Produção Técnica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria" tabindex="35">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente" tabindex="36">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos" tabindex="37">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas" tabindex="38">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos" tabindex="39">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="40">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="41">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="42">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="43">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica" tabindex="44">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="45">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas" tabindex="46">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="47">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais" tabindex="48">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas" tabindex="49">Outras produções técnicas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="#ProducaoArtisticaCultural" tabindex="50">Produção Artística/Cultural</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas" tabindex="51">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica" tabindex="52">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais" tabindex="53">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas" tabindex="54">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-educacaoPopularizacaoCTA" class="megamenu" _megamenupos="5pos" style="z-index: 1006; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA" tabindex="56">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA" tabindex="57">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA" tabindex="58">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA" tabindex="59">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA" tabindex="60">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA" tabindex="61">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA" tabindex="62">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA" tabindex="63">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA" tabindex="64">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA" tabindex="65">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA" tabindex="66">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA" tabindex="67">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA" tabindex="68">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA" tabindex="69">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-bancas" class="megamenu" _megamenupos="6pos" style="z-index: 1007; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho" tabindex="71">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes" tabindex="72">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-citacoes" class="megamenu" _megamenupos="7pos" style="z-index: 1008; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#Citacoes" tabindex="74">Citações no ISI</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes" tabindex="75">Citações no SciELO</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes" tabindex="76">Citações no SCOPUS</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes" tabindex="77">Citações em outras bases bibliográficas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-informacoes-complementares" class="megamenu" _megamenupos="8pos" style="z-index: 1009; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&amp;id=K4384823Y3&amp;tipo=completo&amp;idiomaExibicao=1" tabindex="79">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div></body></html>

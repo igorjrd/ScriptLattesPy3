@@ -1,0 +1,831 @@
+<html lang="pt-BR"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+	<meta content="Sistema de Currículos Lattes 2.0 (CNPq)" http-equiv="generator">
+	<meta content="currículo,curriculo,curriculum,cv,vitae,lattes,produção,producao,científica,cientifica,Brasil" http-equiv="keywords">
+	<title>Currículo do Sistema de Currículos Lattes (Andréa Britto Mattos)</title>
+	<link type="text/css" rel="stylesheet" href="css/import.css">
+	<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+	<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+	<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+	<link type="text/css" rel="stylesheet" href="css/impressao.css">
+	<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+				
+				var menu = {
+					iniciar: function(id) {
+						jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+					}
+				};
+				
+				function abreLinkHistoricoPublicacoes(codigo,nome){
+					var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+					if(j){
+						j.focus();
+					} else {
+						alert('Por favor, desabilite o bloqueador de popups');
+					}
+				}
+				
+				var autores = {
+					exibir: function() {
+						$(this).hide().parent().find(".autores-et-al").show();
+					},
+					ocultar: function() {
+						$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+					}
+				};
+					
+				$(document).ready(function(){
+				
+					$(".ajaxJCR").ajaxJCR();
+					
+					$(".ajaxCAPES").ajaxCAPES();
+					
+					$(".ajaxINPI").ajaxINPI();
+					
+					$("div.citacoes").verificarCitacoes();
+					
+					$(".tooltip").tipsy({gravity: 's'});
+					
+					$(".autores-et-al-plus").click(autores.exibir);
+					
+					$(".autores-et-al-minus").click(autores.ocultar);
+						
+				  });	
+							
+	<!--       		$( function() { -->
+	<!-- 			    $( document ).tooltip(); -->
+	<!-- 			 } ); -->
+												  
+			
+		</script><script type="text/javascript">
+						
+						  var _gaq = _gaq || [];
+						  _gaq.push(['_setAccount', 'UA-35652740-1']);
+						  _gaq.push(['_trackPageview']);
+						
+						  (function() {
+							var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+							ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+							var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+						  })();
+						
+						</script>
+	</head>
+	<body>
+	<div class="page min-width">
+	<div class="header">
+	<div class="header-content max-width">
+	<div class="identity center">
+	<div class="combo">
+	<h1 class="escondido" tabindex="0"> Currículo Lattes - Busca Textual - Visualização do Currículo </h1>
+	<a href="http://lattes.cnpq.br/" title="Currículo Lattes" target="_blank" tabindex="1"><img title="Currículo Lattes" alt="Currículo Lattes" src="images/titulo-sistema.png"></a>
+	</div>
+	<div class="menu-header menuScroll" style="position: absolute; top: 797px;">
+	<span class="tituloFlow">Formação acadêmica/titulação</span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4468283H5&amp;idiomaExibicao=2" class="btn-br" tabindex="2">English</a><a title="Imprimir currículo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()" tabindex="3"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)" tabindex="4"></a><a title="Fonte padrão" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)" tabindex="5"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)" tabindex="6"></a><a href="download.do?metodo=apresentar&amp;idcnpq=2837012019824386" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" tabindex="7"></a><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php" tabindex="8"></a></span>
+	</div>
+	<div class="logo">
+	<a target="_blank" href="http://cnpq.br/" tabindex="9">
+	<h2 tabindex="0">CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico</h2>
+	</a>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="navigation-wrapper">
+	<div class="center navigation-wrapper-line">
+	<div class="menuPrincipal">
+	<div class="menuCtl menuAcesso">
+	<div class="menucent"><script type="text/javascript">menu.iniciar("dados-gerais");</script>
+			
+			
+			<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade" tabindex="10" _megamenupos="0pos"><span></span>Dados gerais</a>
+			
+		
+			
+			
+			
+			
+		<script type="text/javascript">menu.iniciar("formacao");</script>
+			
+			
+			<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="15" _megamenupos="1pos"><span></span>Formação</a>
+			
+		
+			
+			
+			
+			
+		<script type="text/javascript">menu.iniciar("atuacao");</script>
+			
+			
+			<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="17" _megamenupos="2pos"><span></span>Atuação</a>
+			
+		
+			
+			
+			
+			
+		<script type="text/javascript">menu.iniciar("producoes");</script>
+			
+			
+			<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador" tabindex="20" _megamenupos="3pos"><span></span>Produções</a>
+			
+		
+			
+			
+			
+			
+		<script type="text/javascript">menu.iniciar("eventos");</script>
+			
+			
+			<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador" tabindex="53" _megamenupos="4pos"><span></span>Eventos</a>
+			
+		
+			
+			
+			
+			
+		<script type="text/javascript">menu.iniciar("informacoes-complementares");</script>
+			
+			
+			<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador" tabindex="56" _megamenupos="5pos"><span></span>+</a>
+			
+		
+			
+			
+			
+			
+		</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="content-wrapper">
+	<div class="main-content max-width min-width center">
+	<div class="layout-cell layout-cell-12">
+	<div class="layout-cell-pad-main">
+	<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4468283H5"><div class="infpessoa">
+	<h2 class="nome" tabindex="0">Andréa Britto Mattos</h2>
+	<ul class="informacoes-autor">
+	<li>
+	<span class="img_link icone-informacao-autor"></span>Endereço para acessar este CV: http://lattes.cnpq.br/2837012019824386</li>
+	<li>
+	<span class="img_identy icone-informacao-autor"></span>ID Lattes: <span style="font-weight: bold; color: #326C99;">2837012019824386</span>
+	</li>
+	<li>
+	<span class="img_cert icone-informacao-autor"></span>Última atualização do currículo em 02/09/2014</li>
+	</ul>
+	</div><br class="clear"><div class="title-wrapper">
+	<h1 class="ui-hidden" tabindex="0"></h1>
+	<hr class="separator">
+	<p class="resumo">Received B.Sc. and M.Sc. degrees in computer science from Institute of Mathematics and Statistics at University of Sao Paulo (USP). Research interests include Computer Graphics and Computer Vision.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+	</p>
+	</div><br class="clear"><div class="title-wrapper">
+	<a name="Identificacao" tabindex="58">
+	<h1 tabindex="0">Identificação</h1>
+	</a>
+	<hr class="separator">
+	<div class="layout-cell layout-cell-12 data-cell">
+	<div class="layout-cell layout-cell-3 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>Nome</b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-9">
+	<div class="layout-cell-pad-5">Andréa Britto Mattos</div>
+	</div>
+	<div class="layout-cell layout-cell-3 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>Nome em citações bibliográficas</b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-9">
+	<div class="layout-cell-pad-5">MATTOS, A. B.;MATTOS, ANDRÉA BRITTO;MATTOS, A B</div>
+	</div>
+	<div class="layout-cell layout-cell-3 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>Lattes iD</b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-9">
+	<div class="layout-cell-pad-5"><img src="./images/v2/icone_lattes.png" style="width: 15px; margin-right: 10px;">http://lattes.cnpq.br/2837012019824386</div>
+	</div>
+	</div>
+	</div><br class="clear"><div class="title-wrapper">
+	<a name="Endereco" tabindex="59">
+	<h1 tabindex="0">Endereço</h1>
+	</a>
+	<hr class="separator">
+	<div class="layout-cell layout-cell-12 data-cell">
+	<div class="layout-cell layout-cell-3 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>Endereço Profissional</b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-9">
+	<div class="layout-cell-pad-5">Universidade de São Paulo, Instituto de Matemática e Estatística. <br class="clear">Rua do Matão, 1010 - Cidade Universitária<br class="clear">Butantã<br class="clear">05508-090 - Sao Paulo, SP - Brasil<br class="clear">URL da Homepage: <a target="blank" href="http://www.vision.ime.usp.br/~dedea/" tabindex="60">http://www.vision.ime.usp.br/~dedea/</a></div>
+	</div>
+	</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+	<a name="FormacaoAcademicaTitulacao" tabindex="61">
+	<h1 tabindex="0">Formação acadêmica/titulação</h1>
+	</a>
+	<hr class="separator">
+	<div class="layout-cell layout-cell-12 data-cell">
+	<div class="layout-cell layout-cell-3 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>2009 - 2011</b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-9">
+	<div class="layout-cell-pad-5">Mestrado em Ciências da Computação<span class="ajaxCAPES" data-param="&amp;codigoCurso=33002010176P0&amp;nivelCurso=M"> (Conceito CAPES 6)</span>. <br class="clear">Universidade de São Paulo, USP, Brasil.
+			
+		<br class="clear">Título: Animação de Faces Tridimensionais Baseada em Registro Estrutural, Ano de Obtenção: 2011.<br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/2240951178648368" tabindex="62"><img src="images/curriculo/logolattes.gif"></a>Roberto Marcondes Cesar Junior.<br class="clear">Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo. <br class="clear">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. </div>
+	</div>
+	<div class="layout-cell layout-cell-3 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>2005 - 2008</b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-9">
+	<div class="layout-cell-pad-5">Graduação em Bacharelado em Ciência da Computação. <br class="clear">Universidade de São Paulo, USP, Brasil.
+			
+		<br class="clear">Título: Sistema de Animação Facial Tridimensional e Síntese de Voz. <br class="clear">Orientador: Roberto Marcondes Cesar Junior. </div>
+	</div>
+	</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+	<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+	<a name="AtuacaoProfissional" tabindex="63">
+	<h1 tabindex="0">Atuação Profissional</h1>
+	</a>
+	<hr class="separator">
+	<div class="layout-cell layout-cell-12 data-cell"><br class="clear"><div class="inst_back">
+	<b>IBM BRASIL IND.MAQ. E SERVICOS LTDA, IBIS_FORN, Brasil.
+			
+		</b>
+	</div>
+	<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>Vínculo institucional</b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-9">
+	<div class="layout-cell-pad-5"><br class="clear"></div>
+	</div>
+	<div class="layout-cell layout-cell-3 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>2013 - Atual</b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-9">
+	<div class="layout-cell-pad-5">Vínculo: Formal labor contract, Enquadramento Funcional: Research Staff Engineer, Regime: Dedicação exclusiva. </div>
+	</div><br class="clear"><br class="clear"><div class="inst_back">
+	<b>Ibope Pesquisa de Mídia, IBOPEMIDIA, Brasil.
+			
+		</b>
+	</div>
+	<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>Vínculo institucional</b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-9">
+	<div class="layout-cell-pad-5"><br class="clear"></div>
+	</div>
+	<div class="layout-cell layout-cell-3 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>2011 - 2013</b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-9">
+	<div class="layout-cell-pad-5">Vínculo: Formal labor contract, Enquadramento Funcional: Research and Development Analyst, Regime: Dedicação exclusiva. </div>
+	</div><br class="clear"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+	<a name="AreasAtuacao" tabindex="64">
+	<h1 tabindex="0">Áreas de atuação</h1>
+	</a>
+	<hr class="separator">
+	<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+	<a name="Idiomas" tabindex="65">
+	<h1 tabindex="0">Idiomas</h1>
+	</a>
+	<hr class="separator">
+	<div class="layout-cell layout-cell-12 data-cell">
+	<div class="layout-cell layout-cell-3 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>Inglês</b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-9">
+	<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+	</div>
+	<div class="layout-cell layout-cell-3 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>Espanhol</b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-9">
+	<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+	</div>
+	</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+	<a name="PremiosTitulos" tabindex="66">
+	<h1 tabindex="0">Prêmios e títulos</h1>
+	</a>
+	<hr class="separator">
+	<div class="layout-cell layout-cell-12 data-cell">
+	<div class="layout-cell layout-cell-3 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>2014</b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-9">
+	<div class="layout-cell-pad-5">Winner of The Paciello Group Web Accessibility Challenge in W4A'14, 11th Web for All Conference. </div>
+	</div>
+	</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+	<a name="ProducoesCientificas" tabindex="67">
+	<h1 tabindex="0">Produções</h1>
+	</a>
+	<hr class="separator">
+	<div class="layout-cell layout-cell-12 data-cell">
+	<a name="ProducaoBibliografica" tabindex="68"></a><br class="clear"><div class="inst_back">
+	<b>Produção bibliográfica</b>
+	</div>
+	<a name="Citacoes" tabindex="69"></a>
+	<div class="cita-artigos">
+	<b><a name="TextosJornaisRevistas" tabindex="70"></a>Textos em jornais de notícias/revistas</b>
+	</div>
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>1. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2837012019824386" target="_blank" tabindex="71">MATTOS, A B</a></b>. Olhar Eletrônico. Pesquisa FAPESP. </div>
+	</div>
+	<br class="clear">
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>2. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2837012019824386" target="_blank" tabindex="72">MATTOS, A B</a></b>. A New Technology To Help Visually Impaired Shoppers Is Being Tested By IBM in Brazil. Forbes. </div>
+	</div>
+	<br class="clear">
+	<div class="cita-artigos">
+	<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="73"></a>Trabalhos completos publicados em anais de congressos</b>
+	</div>
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>1. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/2596695.2596707" target="_blank" tabindex="74"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2837012019824386" target="_blank" tabindex="75">MATTOS, ANDRÉA BRITTO</a></b>; CARDONHA, CARLOS ; GALLO, DIEGO ; AVEGLIANO, PRISCILLA ; HERRMANN, RICARDO ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8987939273905087" target="_blank" tabindex="76">BORGER, SERGIO</a> . Marker-based image recognition of dynamic content for the visually impaired. In: the 11th Web for All Conference, 2014, Seoul. Proceedings of the 11th Web for All Conference on - W4A '14. New York: ACM Press. p. 1. </div>
+	</div>
+	<br class="clear">
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>2. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2837012019824386" target="_blank" tabindex="77">MATTOS, A. B.</a></b>; HERRMANN, R. G. ; SHIGENO, K. K. ; FERIS, R. S. . A Mission-Oriented Citizen Science Platform for Efficient Flower Classification Based on Combination of Feature Descriptors. In: International Workshop on Environmental Multimedia Retrieval 2014, 2014, Glasgow. International Workshop on Environmental Multimedia Retrieval 2014, 2014. </div>
+	</div>
+	<br class="clear">
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>3. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2837012019824386" target="_blank" tabindex="78">MATTOS, A. B.</a></b>; KAMPEN, M. V. ; CARRICO, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3297406696314967" target="_blank" tabindex="79">CRIVELLARO, A.</a> . E-commerce Market Analysis from a Graph-Based Product Classifier. In: Computational Processing of the Portuguese Language, 2012, Coimbra. 10th International Conference, PROPOR 2012, 2012. </div>
+	</div>
+	<br class="clear">
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>4. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2837012019824386" target="_blank" tabindex="80">MATTOS, A. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4727357182510680" target="_blank" tabindex="81">MENA-CHALCO, J. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank" tabindex="82">CESAR JUNIOR, R. M.</a> . 3D facial animation based on structural registration. In: XXIV Sibgrapi (Conference on Graphics, Patterns and Images), 2011, Maceió. XXIV Sibgrapi - Workshop of Theses and Dissertations, 2011. </div>
+	</div>
+	<br class="clear">
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>5. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2837012019824386" target="_blank" tabindex="83">MATTOS, A. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6278715393178229" target="_blank" tabindex="84">MONTAGNER, I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3297406696314967" target="_blank" tabindex="85">CRIVELLARO, A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7411185094432621" target="_blank" tabindex="86">KLAVA, B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259409970128066" target="_blank" tabindex="87">BRUN, M.</a> . Computer vision research at IBOPE Media automation tools to reduce human intervention. In: XXIV Sibgrapi (Conference on Graphics, Patterns and Images), 2011, Maceió. XXIV Sibgrapi -  Workshop on Interactive Graphics and Visualization for Industry-Driven Applied and Exploratory Research, 2011. </div>
+	</div>
+	<br class="clear">
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>6. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/SIBGRAPI.2010.44" target="_blank" tabindex="88"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2837012019824386" target="_blank" tabindex="89">MATTOS, A B</a></b>; MENA-CHALCO, J P ; CESAR, R M ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9500245604678806" target="_blank" tabindex="90">VELHO, L</a> . 3D Linear Facial Animation Based on Real Data. In: 2010 23rd SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI 2010), 2010, Gramado. 2010 23rd SIBGRAPI Conference on Graphics, Patterns and Images. p. 271. </div>
+	</div>
+	<br class="clear">
+	<div class="cita-artigos">
+	<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="91"></a>Resumos expandidos publicados em anais de congressos</b>
+	</div>
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>1. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/2578726.2582620" target="_blank" tabindex="92"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2837012019824386" target="_blank" tabindex="93">MATTOS, ANDRÉA BRITTO</a></b>; HERRMANN, RICARDO GUIMARÃES ; SHIGENO, KELLY KIYUMI ; FERIS, ROGERIO SCHMIDT . Flower Classification for a Citizen Science Mobile App. In: International Conference, 2014, Glasgow. Proceedings of International Conference on Multimedia Retrieval - ICMR '14. New York: ACM Press. p. 532. </div>
+	</div>
+	<br class="clear">
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>2. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/2596695.2596722" target="_blank" tabindex="94"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2837012019824386" target="_blank" tabindex="95">MATTOS, ANDRÉA BRITTO</a></b>; HERRMANN, RICARDO ; CARDONHA, CARLOS ; GALLO, DIEGO ; AVEGLIANO, PRISCILLA ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8987939273905087" target="_blank" tabindex="96">BORGER, SERGIO</a> . Marker-assisted recognition of dynamic content in public spaces. In: the 11th Web for All Conference, 2014, Seoul. Proceedings of the 11th Web for All Conference on - W4A '14. New York: ACM Press. p. 1. </div>
+	</div>
+	<br class="clear">
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>3. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5">AVEGLIANO, P. ; CARDONHA, C. ; <b>MATTOS, A. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8987939273905087" target="_blank" tabindex="97">BORGER, S.</a> . Shelf replenishment optimization towards the confluence of mobile and analytics. In: INFORMS, 2014, Boston. 14th Annual Conference on Business Analytics, 2014. </div>
+	</div>
+	<br class="clear">
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>4. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2837012019824386" target="_blank" tabindex="98">MATTOS, A. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank" tabindex="99">CESAR JUNIOR, R. M.</a> . 3D facial animation based on structural registration. In: Brazilian Symposium on Computer Graphics and Image Processing SIBGRAPI 2009, 2009, Rio de Janeiro. Brazilian Symposium on Computer Graphics and Image Processing, Conference Proceedings, 2009, 2009. </div>
+	</div>
+	<br class="clear">
+	<a name="ProducaoTecnica" tabindex="100"></a><br class="clear"><div class="inst_back">
+	<b>Produção técnica</b>
+	</div>
+	<div class="cita-artigos">
+	<b><a name="SoftwareSemPatente" tabindex="101"></a>Programas de computador sem registro</b>
+	</div>
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>1. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5">
+			<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+			<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2837012019824386" target="_blank" tabindex="102">MATTOS, A. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank" tabindex="103">CESAR JUNIOR, R. M.</a> . Avator - Facial Animation and Speech Synthesis System. 2008. </div>
+	</div>
+	<br class="clear">
+	</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+	<a name="Eventos" tabindex="104">
+	<h1 tabindex="0">Eventos</h1>
+	</a>
+	<hr class="separator">
+	<div class="layout-cell layout-cell-12 data-cell">
+	<div class="layout-cell layout-cell-12 data-cell">
+	<a name="ParticipacaoEventos" tabindex="105"></a><br class="clear"><div class="inst_back">
+	<b>Participação em eventos, congressos, exposições e feiras</b>
+	</div>
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>1. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5">International Conference on Multimedia Retrieval - ICMR. 2014. (Congresso). </div>
+	</div>
+	<br class="clear">
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>2. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5">International Workshop on Environmental Multimedia Retrieval - EMR. 2014. (Oficina). 
+						</div>
+	</div>
+	<br class="clear">
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>3. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5">The Web for All Conference - W4A. 2014. (Congresso). </div>
+	</div>
+	<br class="clear">
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>4. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5">World Wide Web Conference - WWW. 2014. (Congresso). </div>
+	</div>
+	<br class="clear">
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>5. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5">Computational Processing of the Portuguese Language - PROPOR. 2012. (Congresso). </div>
+	</div>
+	<br class="clear">
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>6. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5">XXIV Sibgrapi (Conference on Graphics, Patterns and Images). 2011. (Congresso). </div>
+	</div>
+	<br class="clear">
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>7. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5">XXIII Sibgrapi (Conference on Graphics, Patterns and Images). 2010. (Congresso). </div>
+	</div>
+	<br class="clear">
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>8. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5">XXII Sibgrapi (Conference on Graphics, Patterns and Images). 2009. (Congresso). </div>
+	</div>
+	<br class="clear">
+	</div>
+	<a name="OrganizacaoEventos" tabindex="106"></a><br class="clear"><div class="inst_back">
+	<b>Organização de eventos, congressos, exposições e feiras</b>
+	</div>
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>1. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2837012019824386" target="_blank" tabindex="107">MATTOS, A. B.</a></b>. 15th Iberoamerican Congress on Pattern Recognition CIARP 2010. 2010. (Congresso). </div>
+	</div>
+	<br class="clear">
+	<div class="layout-cell layout-cell-1 text-align-right">
+	<div class="layout-cell-pad-5 text-align-right">
+	<b>2. </b>
+	</div>
+	</div>
+	<div class="layout-cell layout-cell-11">
+	<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2837012019824386" target="_blank" tabindex="108">MATTOS, A. B.</a></b>. São Paulo Advanced School of Computing SP-ASC 2010. 2010. (Outro). </div>
+	</div>
+	<br class="clear">
+	</div><br class="clear"></div><br class="clear"><br class="clear"><div class="rodape-cv">Página gerada pelo Sistema Currículo Lattes em 30/06/2023 às 16:21:54</div><br class="clear"><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=2837012019824386" target="_blank" class="button" tabindex="109"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()" tabindex="110"><span class="mini-ico mini-ico-list"></span>Imprimir Currículo</a>
+	</div><br class="clear"></div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="to-top-bar" id="toTop" style="display: block;">
+	<a href="javascript:void(0)" class="topo-width center" tabindex="111">
+	<div class="id-orgao">
+	<span>CNPq</span> | Uma agência do Ministério da Ciência, Tecnologia e Inovação</div>
+	</a>
+	</div>
+	
+	
+	<div id="menu-dados-gerais" class="megamenu" _megamenupos="0pos" style="z-index: 1001; display: none;">
+			
+			<div class="column"><h3 tabindex="0"></h3><ul>
+			
+			
+			<li><a href="#Identificacao" tabindex="11">Identificação</a></li>
+			
+		
+			
+			
+			<li><a href="#Endereco" tabindex="12">Endereço</a></li>
+			
+		
+			
+			
+			<li><a href="#Idiomas" tabindex="13">Idiomas</a></li>
+			
+		
+			
+			
+			<li><a href="#PremiosTitulos" tabindex="14">Prêmios e títulos</a></li>
+			
+		</ul></div>
+			
+			
+			<div class="clear"></div></div><div id="menu-formacao" class="megamenu" _megamenupos="1pos" style="z-index: 1002; display: none;">
+			
+			<div class="column"><h3 tabindex="0"></h3><ul>
+			
+			
+			<li><a href="#FormacaoAcademicaTitulacao" tabindex="16">Formação acadêmica/titulação</a></li>
+			
+		</ul></div>
+			
+			
+			<div class="clear"></div></div><div id="menu-atuacao" class="megamenu" _megamenupos="2pos" style="z-index: 1003; display: none;">
+			
+			<div class="column"><h3 tabindex="0"></h3><ul>
+			
+			
+			<li><a href="#AtuacaoProfissional" tabindex="18">Atuação profissional</a></li>
+			
+		
+			
+			
+			<li><a href="#AreasAtuacao" tabindex="19">Áreas de atuação</a></li>
+			
+		</ul></div>
+			
+			
+			<div class="clear"></div></div><div id="menu-producoes" class="megamenu" _megamenupos="3pos" style="z-index: 1004; display: none;">
+			
+			<div class="column"><div class="subtitMenu"><a href="#ProducaoBibliografica" tabindex="21">Produção Bibliográfica</a></div><h3 tabindex="0"></h3><ul>
+			
+			
+			<li><a href="#ArtigosCompletos" tabindex="22">Artigos completos publicados em periódicos</a></li>
+			
+		
+			
+			
+			<li><a href="#ArtigosAceitos" tabindex="23">Artigos aceitos para publicação</a></li>
+			
+		
+			
+			
+			<li><a href="#LivrosCapitulos" tabindex="24">Livros e capítulos</a></li>
+			
+		
+			
+			
+			<li><a href="#TextosJornaisRevistas" tabindex="25">Textos em jornais ou revistas (magazine)</a></li>
+			
+		
+			
+			
+			<li><a href="#TrabalhosPublicadosAnaisCongresso" tabindex="26">Trabalhos publicados em anais de congressos</a></li>
+			
+		
+			
+			
+			<li><a href="#ApresentacaoTrabalho" tabindex="27">Apresentações de trabalho</a></li>
+			
+		
+			
+			
+			<li><a href="#OutrasProducoesBibliograficas" tabindex="28">Partitura musical</a></li>
+			
+		
+			
+			
+			<li><a href="#OutrasProducoesBibliograficas" tabindex="29">Tradução</a></li>
+			
+		
+			
+			
+			<li><a href="#OutrasProducoesBibliograficas" tabindex="30">Prefácio, pósfacio</a></li>
+			
+		
+			
+			
+			<li><a href="#OutrasProducoesBibliograficas" tabindex="31">Outras produções bibliográficas</a></li>
+			
+		</ul></div><div class="column"><div class="subtitMenu"><a href="#ProducaoTecnica" tabindex="32">Produção Técnica</a></div><h3 tabindex="0"></h3><ul>
+			
+			
+			<li><a href="#AssessoriaConsultoria" tabindex="33">Assessoria e consultoria</a></li>
+			
+		
+			
+			
+			<li><a href="#SoftwareSemPatente" tabindex="34">Programas de computador sem registro</a></li>
+			
+		
+			
+			
+			<li><a href="#ProdutosTecnologicos" tabindex="35">Produtos tecnológicos</a></li>
+			
+		
+			
+			
+			<li><a href="#ProcessosTecnicas" tabindex="36">Processos e técnicas</a></li>
+			
+		
+			
+			
+			<li><a href="#TrabalhosTecnicos" tabindex="37">Trabalhos técnicos</a></li>
+			
+		
+			
+			
+			<li><a href="#DemaisProducaoTecnica" tabindex="38">Cartas, mapas ou similares</a></li>
+			
+		
+			
+			
+			<li><a href="#DemaisProducaoTecnica" tabindex="39">Curso de curta duração ministrado</a></li>
+			
+		
+			
+			
+			<li><a href="#DemaisProducaoTecnica" tabindex="40">Desenvolvimento de material didático ou instrucional</a></li>
+			
+		
+			
+			
+			<li><a href="#DemaisProducaoTecnica" tabindex="41">Editoração</a></li>
+			
+		
+			
+			
+			<li><a href="#ManutencaoObraArtistica" tabindex="42">Manutenção de obra artística</a></li>
+			
+		
+			
+			
+			<li><a href="#DemaisProducaoTecnica" tabindex="43">Maquete</a></li>
+			
+		
+			
+			
+			<li><a href="#EntrevistasMesasRedondas" tabindex="44">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+			
+		
+			
+			
+			<li><a href="#DemaisProducaoTecnica" tabindex="45">Relatório de pesquisa</a></li>
+			
+		
+			
+			
+			<li><a href="#RedesSociais" tabindex="46">Redes sociais, websites e blogs</a></li>
+			
+		
+			
+			
+			<li><a href="#DemaisProducoesTecnicas" tabindex="47">Outras produções técnicas</a></li>
+			
+		</ul></div><div class="column"><div class="subtitMenu"><a href="#ProducaoArtisticaCultural" tabindex="48">Produção Artística/Cultural</a></div><h3 tabindex="0"></h3><ul>
+			
+			
+			<li><a href="#ArtesCenicas" tabindex="49">Artes cênicas</a></li>
+			
+		
+			
+			
+			<li><a href="#Musica" tabindex="50">Música</a></li>
+			
+		
+			
+			
+			<li><a href="#ArtesVisuais" tabindex="51">Artes visuais</a></li>
+			
+		
+			
+			
+			<li><a href="#OutrasProducoesArtisticas" tabindex="52">Outras produções artísticas/culturais</a></li>
+			
+		</ul></div>
+			
+			
+			<div class="clear"></div></div><div id="menu-eventos" class="megamenu" _megamenupos="4pos" style="z-index: 1005; display: none;">
+			
+			<div class="column"><h3 tabindex="0"></h3><ul>
+			
+			
+			<li><a href="#ParticipacaoEventos" tabindex="54">Participação em eventos, congressos, exposições e feiras</a></li>
+			
+		
+			
+			
+			<li><a href="#OrganizacaoEventos" tabindex="55">Organização de eventos, congressos, exposições e feiras</a></li>
+			
+		</ul></div>
+			
+			
+			<div class="clear"></div></div><div id="menu-informacoes-complementares" class="megamenu" _megamenupos="5pos" style="z-index: 1006; display: none;">
+			
+			<div class="column"><h3 tabindex="0"></h3><ul>
+			
+			
+			<li><a href="visualizacv.do?metodo=apresentar&amp;id=K4468283H5&amp;tipo=completo&amp;idiomaExibicao=1" tabindex="57">Mostrar informações complementares</a></li>
+			
+		</ul></div>
+			
+			
+			<div class="clear"></div></div></body></html>

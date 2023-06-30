@@ -1,0 +1,1388 @@
+<html lang="pt-BR"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Currículos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="currículo,curriculo,curriculum,cv,vitae,lattes,produção,producao,científica,cientifica,Brasil" http-equiv="keywords">
+<title>Currículo do Sistema de Currículos Lattes (Antonio de Abreu Batista Junior)</title>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});	
+      				  
+<!--       		$( function() { -->
+<!-- 			    $( document ).tooltip(); -->
+<!-- 			 } ); -->
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</head>
+<body>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido" tabindex="0"> Currículo Lattes - Busca Textual - Visualização do Currículo </h1>
+<a href="http://lattes.cnpq.br/" title="Currículo Lattes" target="_blank" tabindex="1"><img title="Currículo Lattes" alt="Currículo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header menuScroll" style="position: absolute; top: 911px;">
+<span class="tituloFlow">Formação acadêmica/titulação</span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4465426T6&amp;idiomaExibicao=2" class="btn-br" tabindex="2">English</a><a title="Imprimir currículo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()" tabindex="3"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)" tabindex="4"></a><a title="Fonte padrão" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)" tabindex="5"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)" tabindex="6"></a><a href="download.do?metodo=apresentar&amp;idcnpq=8874849216659304" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" tabindex="7"></a><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php" tabindex="8"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/" tabindex="9">
+<h2 tabindex="0">CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type="text/javascript">menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade" tabindex="10" _megamenupos="0pos"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="14" _megamenupos="1pos"><span></span>Formação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="17" _megamenupos="2pos"><span></span>Atuação</a>
+		
+	
+		
+		
+		
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador" tabindex="23" _megamenupos="3pos"><span></span>Projetos</a>
+		
+	<script type="text/javascript">menu.iniciar("projetos");</script>
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador" tabindex="25" _megamenupos="4pos"><span></span>Produções</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador" tabindex="58" _megamenupos="5pos"><span></span>Eventos</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador" tabindex="60" _megamenupos="6pos"><span></span>Orientações</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador" tabindex="63" _megamenupos="7pos"><span></span>Bancas</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador" tabindex="66" _megamenupos="8pos"><span></span>+</a>
+		
+	
+		
+		
+		
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4465426T6"><div class="infpessoa">
+<h2 class="nome" tabindex="0">Antonio de Abreu Batista Junior</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endereço para acessar este CV: http://lattes.cnpq.br/8874849216659304</li>
+<li>
+<span class="img_identy icone-informacao-autor"></span>ID Lattes: <span style="font-weight: bold; color: #326C99;">8874849216659304</span>
+</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>Última atualização do currículo em 16/05/2023</li>
+</ul>
+</div><br class="clear"><div class="title-wrapper">
+<h1 class="ui-hidden" tabindex="0"></h1>
+<hr class="separator">
+<p class="resumo">Antônio  é um  professor Adjunto vinculado ao Departamento de Informática da Universidade Federal do Maranhão (UFMA), onde atua no curso de graduação em Ciência da Computação.  Possui Doutorado em Ciência da Computação pela Universidade Federal do ABC (UFABC), 2021.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Identificacao" tabindex="68">
+<h1 tabindex="0">Identificação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Antonio de Abreu Batista Junior</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">de Abreu Batista, Antonio;DE ABREU BATISTA, ANTONIO;BATISTA, ANTÔNIO DE ABREU;BATISTA JUNIOR, A. A.;BATISTA-JR, ANTÔNIO DE ABREU;DE ABREU BATISTA, ANTÔNIO;BATISTA JR, ANTÔNIO</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Lattes iD</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><img src="./images/v2/icone_lattes.png" style="width: 15px; margin-right: 10px;">http://lattes.cnpq.br/8874849216659304</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Orcid iD </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><a class="icons-aviso titBottom icons-aviso-help icon-cor" href="javascript:void(0)" rel="tooltip" title="O que é ORCID? ORCID é uma organização independente sem fins lucrativos que fornece um identificador persistente - um ORCID iD - que distingue de outros pesquisadores e um mecanismo para conjuntos de resultados e atividades de pesquisa ao seu ID. O ORCID está bem localizado em editores, financiadores, instituições e outros serviços relacionados à pesquisa. Saiba mais em orcid.org " style="font-weight:bold;font-size:+1;color:blue;position:relative;top:-3px;" tabindex="69">?</a> <img src="./images/v2/icone_orcid.png" style="width: 15px; margin-right: 10px;"><a href="https://orcid.org/0000-0002-6013-9704" tabindex="70">https://orcid.org/0000-0002-6013-9704</a></div>
+</div>
+</div>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Endereco" tabindex="71">
+<h1 tabindex="0">Endereço</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Maranhão, Centro Tecnológico, Departamento de Informática. <br class="clear">Avenida dos Portugueses s/n<br class="clear">Campus do Bacanga<br class="clear">65085000 - São Luís, MA - Brasil<br class="clear">Telefone: (98) 33018224</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao" tabindex="72">
+<h1 tabindex="0">Formação acadêmica/titulação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - 2021</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Ciência da Computação. <br class="clear">Universidade Federal do ABC, UFABC, Brasil.
+		
+	<br class="clear">Título: Predição na Ciência da Ciência: Explicativas de Modelos para Predições de Impacto Futuro de Cientistas Júnior, Ano de obtenção: 2021. <br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/4727357182510680" tabindex="73"><img src="images/curriculo/logolattes.gif"></a>Jesús Pascual Mena Chalco. <br class="clear">Coorientador: Fábio Castro Gouveia. <br class="clear">Bolsista do(a): Fundação de Amparo à Pesquisa ao Desenvolv. Científico e Tecnológico - MA, FAPEMA, Brasil. <br class="clear">Palavras-chave: predições científicas; explicativas de modelos; aprendizado de máquina; pesquisadores júnior; modelo Q.<br class="clear">Grande área: Ciências Exatas e da Terra</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ciência da Computação<span class="ajaxCAPES" data-param="&amp;codigoCurso=20001010022P0&amp;nivelCurso=M"> (Conceito CAPES 4)</span>. <br class="clear">Universidade Federal do Maranhão, UFMA, Brasil.
+		
+	<br class="clear">Título: Modelagem e Simulação Multiagente Aplicada ao Controle de Tráfego Urbano.<a class="tooltip-oasis" target="_blank" style="font-weight:bold;font-size:+1;color:blue;position:relative;top:-3px;" href="http://oasisbr.ibict.br/vufind/Record/BRCRIS_e22e8fd207e3a3febc79413b98a035fc" tabindex="74"><img src="./images/v2/logo-oasisbr-circulo.png" style="width: 15px; margin-right: 0px; vertical-align: bottom">
+					<span>				   
+					     <img src="./images/v2/logo-oasisbr.png"><br><br>
+					     <p align="justify">O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações.</p>		    
+					 </span>			
+					  </a>, Ano de Obtenção: 2013.<br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/5901564732655853" tabindex="75"><img src="images/curriculo/logolattes.gif"></a>Luciano Reis Coutinho.<br class="clear">Bolsista do(a): Fundação de Amparo à Pesquisa ao Desenvolv. Científico e Tecnológico - MA, FAPEMA, Brasil. <br class="clear">Palavras-chave: multi-agent coordination; intelligent traffic control.<br class="clear">Grande área: Ciências Exatas e da Terra</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Criptografia.  (Carga Horária: 360h). <br class="clear">Universidade Federal Fluminense, UFF, Brasil.
+		
+	<br class="clear">Título: O Problema da Distribuição de Chaves e a Solução Proposta por Artur Ekert. <br class="clear">Orientador: Luiz Manoel Figueiredo. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Sistemas de Informação. <br class="clear">Universidade Estácio de Sá, UNESA, Brasil.
+		
+	<br class="clear">Título: Sistema Imobiliário Online (SION). <br class="clear">Orientador: Cleverson Alessandro Veronez. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoComplementar" tabindex="76">
+<h1 tabindex="0">Formação Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Modelando Sistemas Computacionais com UML.  (Carga horária: 45h). <br class="clear">Fundação Centro de Ciências e Educação Superior à Distância do Estado do RJ, CECIERJ, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Desenvolvendo Jogos 2D com C# e Microsof XNA.  (Carga horária: 45h). <br class="clear">Fundação Centro de Ciências e Educação Superior à Distância do Estado do RJ, CECIERJ, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Java Básico e Orientação a Objeto.  (Carga horária: 45h). <br class="clear">Fundação Centro de Ciências e Educação Superior à Distância do Estado do RJ, CECIERJ, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Gestão de Projetos de Tecnologia da Informação.  (Carga horária: 30h). <br class="clear">Fundação Centro de Ciências e Educação Superior à Distância do Estado do RJ, CECIERJ, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Curso de Inglês.  (Carga horária: 90h). <br class="clear">Instituto de Idiomas Yázigi, YÁZIGI, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso de Formação de Marinheiros para Ativa.  (Carga horária: 1920h). <br class="clear">Escola de Aprendizes-Marinheiros do Ceará, EAMCE, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">zootecnia.  (Carga horária: 300h). <br class="clear">Escola Agrotécnica Federal de São Luis, EAF, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AtuacaoProfissional" tabindex="77">
+<h1 tabindex="0">Atuação Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear"><div class="inst_back">
+<b>Universidade Federal do Maranhão, UFMA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2021 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Adjunto, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2021</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Assistente B, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Analista de Tecnologia da Informação, Carga horária: 40</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2022 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Centro Tecnológico, Departamento de Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">coordenador do curso de Ciência da Computação.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2016 - 01/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Centro Tecnológico, Departamento de Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">membro do colegiado do curso de ciência da computação.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2015 - 06/2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Introdução à Criptografia<br class="clear">Sistemas Operacionais II<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2014 - 06/2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Introdução à Computação<br class="clear">Sistemas Operacionais I<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2014 - 06/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Sistemas Distribuídos<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Marinha do Brasil, MB, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: militar, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2009 - 03/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Esquadrão de Helicópteros de Emprego Geral. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear">Reparo de primeiro escalão em sistemas aviônicos. </div>
+</div><br class="clear"><div class="inst_back">
+<b>Universidade Federal do ABC, UFABC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - 2021</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Aluno de Doutorado, Enquadramento Funcional: Aluno/pesquisador, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pertence ao grupo de cienciometria da UFABC desenvolvendo pesquisas relacionadas a mineração de dados acadêmicos grandes (Big Scholarly data).</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento, Centro de Matemática, Computação e Cognição. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear"><a href="#LP_mineração de dados (Big Scholarly Data)" tabindex="78">mineração de dados (Big Scholarly Data)</a><br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="LinhaPesquisa" tabindex="79">
+<h1 tabindex="0">Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="LP_mineração de dados (Big Scholarly Data)" tabindex="80"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">mineração de dados (Big Scholarly Data)</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosPesquisa" tabindex="81">
+<h1 tabindex="0">Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Identificando modelos preditivos tomando decisões parciais usando métodos de atribuição da Inteligência Artificial  Explicável" tabindex="82"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2023 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Identificando modelos preditivos tomando decisões parciais usando métodos de atribuição da Inteligência Artificial  Explicável<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Modelos de inteligência artificial podem involuntariamente ter preferências (favorecendo um lado em uma disputa). Apesar da seriedade disso, poucos pesquisadores têm considerado esta questão. Este projeto propõe o desenvolvimento de um novo método computacional para identificar máquinas tomando decisões parciais usando métodos de atribuição da IA explicável. Métodos de atribuição são métodos que atribuem a culpa ou crédito por uma saída do modelo a entradas específicas. Este projeto tem o potencial de reduzir as desigualdades entre cientistas.. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (1) . <br class="clear"><br class="clear">Integrantes: Antonio de Abreu Batista Junior - Coordenador / LUCIANO REIS COUTINHO - Integrante / FRANCISCO JOSE DA SILVA E SILVA - Integrante.<br class="clear"></div>
+</div><a name="PP_Explicando as Ações/Decisões Autônomas de Modelos de Redes Neurais do Indice-h Futuro do Cientista usando Meta-Aprendizado" tabindex="83"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2022 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Explicando as Ações/Decisões Autônomas de Modelos de Redes Neurais do Indice-h Futuro do Cientista usando Meta-Aprendizado<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Devido ao sucesso recente dos modelos de redes neurais e seus usos em aplicações de alta complexidade, envolvendo até risco à vida humana (e.g., carros autônomos), existe uma grande necessidade por explicações compreensivas e fidedignas do motivo da rede neural está tomando uma certa predição. No contexto de predição de sucesso científico, modelos de redes neurais do índice-h futuro têm impressionado por suas acurácias, mas o risco que surge com a renuncia do controle para estes modelos preditivos tem barrado seus usos. Neste projeto, pretende-se superar isso, desenvolvendo um novo método para interpretar uma decisão de um modelo de rede neural do índice-h futuro do cientista usando meta-aprendizado. Acreditamos que este projeto, além de apresentar uma proposta nova de método na área de Ciência da Computação, também permitirá conhecer e estudar as próximas gerações de pessoas (e.g., no contexto nacional) com elevado potencial científico.. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (1) . <br class="clear"><br class="clear">Integrantes: Antonio de Abreu Batista Junior - Coordenador / LUCIANO REIS COUTINHO - Integrante / Alexandre César Muniz de Oliveira - Integrante.<br class="clear"></div>
+</div><a name="PP_Predição na Ciência da Ciência: Explicativas de Modelos para Predições de Impacto Futuro de Cientistas Júnior" tabindex="84"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Predição na Ciência da Ciência: Explicativas de Modelos para Predições de Impacto Futuro de Cientistas Júnior<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Indicadores bibliométricos têm sido utilizados amplamente por governos, agências de governos e outros atores (e.g., universidades e pelos próprios cientistas) para mensurar o desempenho de pesquisadores, com o objetivo de orientar decisões de aprovação em estágio probatório, e como critério para progressão de carreira, financiamento de pesquisa, seleção de membros de quadros editoriais entre outras aplicações. A racionalidade por trás do uso desses indicadores como ferramentas de suporte à decisão, nesses contextos, é a força preditiva que supostamente
+eles carregam. Para essas e outras aplicações, o potencial para impacto futuro de um avaliado é
+a preocupação central. Indicadores alternativos (i.e., o índice-h futuro estimado via modelos de
+aprendizado de máquina) capturando o potencial para impacto futuro do cientista claramente
+têm uma vantagem sobre indicadores tradicionais. Entretanto, vieses de toda natureza (e.g.,
+favorecimento de certos grupos privilegiados) encontrados nesses modelos e a ausência de explicativas para suas tomadas de decisões têm tornado o uso deles inadequados em contextos em que decisões fundamentadas são pré-requisitos. Este Projeto foca em como resolver essa questão.. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Doutorado: (1) . <br class="clear"><br class="clear">Integrantes: Antonio de Abreu Batista Junior - Integrante / Jesús Pascual Mena-Chalco - Coordenador / GOUVEIA, FÁBIO CASTRO - Integrante.<br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="RevisorPeriodico" tabindex="85">
+<h1 tabindex="0">Revisor de periódico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2021 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Frontiers in Research Metrics and Analytics</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2022 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: SCIENTOMETRICS (ONLINE)</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="RevisorProjetoFomento" tabindex="86">
+<h1 tabindex="0">Revisor de projeto de fomento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2022 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Agência de fomento: Fundação de Amparo à Pesquisa ao Desenvolv. Científico e Tecnológico - MA</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AreasAtuacao" tabindex="87">
+<h1 tabindex="0">Áreas de atuação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. <br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Idiomas" tabindex="88">
+<h1 tabindex="0">Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProducoesCientificas" tabindex="89">
+<h1 tabindex="0">Produções</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica" tabindex="90"></a><br class="clear"><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes" tabindex="91"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos" tabindex="92"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear"><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronológica </option><option value="2"> Número de citações Web of science </option><option value="3"> Número de citações Scopus </option><option value="4"> Numero de citações Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Importância </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">4.373</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">BATISTA-JR, ANTÔNIO DE ABREU</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2021</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.joi.2021.101130" target="_blank" tabindex="93"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8874849216659304" target="_blank" tabindex="94">BATISTA-JR, ANTÔNIO DE ABREU</a></b>; GOUVEIA, FÁBIO CASTRO ; MENA-CHALCO, JESÚS P. . Predicting the Q of junior researchers using data from the first years of publication. Journal of Informetrics<sup><img id="17511577_1" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="17511577" original-title="Journal of Informetrics (1751-1577)<br />Fator de impacto (JCR 2021): 4.373"></sup>, v. 15, p. 101130, 2021. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1016/j.joi.2021.101130&amp;issn=17511577&amp;volume=15&amp;issue=&amp;paginaInicial=101130&amp;titulo=Predicting the Q of junior researchers using data from the first years of publication&amp;sequencial=1&amp;nomePeriodico=Journal of Informetrics" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000656661900020&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">3</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">0.0</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">SAMPAIO, RICARDO BARROS</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2020</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.2478/jdis-2020-0038" target="_blank" tabindex="95"></a>SAMPAIO, RICARDO BARROS ; <b>DE ABREU BATISTA, ANTÔNIO</b> ; FERREIRA, BRUNO SANTOS ; BARRETO, MAURICIO L. ; MENA-CHALCO, JESÚS P. . Scientometric Analysis of Research Output from Brazil in Response to the Zika Crisis Using e-Lattes. Journal Of Data And Information Science<sup><img id="2543683X_2" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="2543683X" original-title="Journal of Data and Information Science (2543-683X)<br />Fator de impacto (JCR 2021): 0.0"></sup>, v. 5, p. 137-146, 2020. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.2478/jdis-2020-0038&amp;issn=2543683X&amp;volume=5&amp;issue=&amp;paginaInicial=137&amp;titulo=Scientometric Analysis of Research Output from Brazil in Response to the Zika Crisis Using e-Lattes&amp;sequencial=2&amp;nomePeriodico=Journal Of Data And Information Science" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000595040100011&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">1</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">0.0</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">COUTINHO, LUCIANO R.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1155/2015/731031" target="_blank" tabindex="96"></a>COUTINHO, LUCIANO R. ; GALVÃO, VICTOR M. ; <b>BATISTA, ANTÔNIO DE ABREU</b> ; MORAES, BRUNO ROBERTO S. ; FRAGA, MÁRCIO REGIS M. . Organizational Gameplay: The Player as Designer of Character Organizations. International Journal of Computer Games Technology<sup><img id="16877055_3" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="16877055" original-title="International Journal of Computer Games Technology (1687-7055)<br />Fator de impacto (JCR 2021): 0.0"></sup>, v. 2015, p. 1-11, 2015. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1155/2015/731031&amp;issn=16877055&amp;volume=2015&amp;issue=&amp;paginaInicial=1&amp;titulo=Organizational Gameplay: The Player as Designer of Character Organizations&amp;sequencial=3&amp;nomePeriodico=International Journal of Computer Games Technology" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000363738800001&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">4</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1155/2015/731031&amp;md5=fd286ce3759527e436795fa8c0be6f21" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="images/v2/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">1</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos" tabindex="97"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/978-3-030-86668-6_9" target="_blank" tabindex="98"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8874849216659304" target="_blank" tabindex="99">BATISTA-JR, ANTÔNIO DE ABREU</a></b>; GOUVEIA, FÁBIO CASTRO ; MENA-CHALCO, J. P. . Identification of Promising Researchers through Fast-and-frugal Heuristics. In: Yanni Manolopoulos; Thanasis Vergoulis. (Org.). Predicting the Dynamics of Research Impact. 1ed.London: Springer, Cham, 2021, v. , p. 1-290. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="100"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8874849216659304" target="_blank" tabindex="101">BATISTA JUNIOR, A. A.</a></b>; MENA-CHALCO, J. P. . Identificação de Acadêmicos Promissores de Sucesso Científico através de Programação Linear Inteira. In: LI Simpósio Brasileiro de Pesquisa Operacional, 2019, Limeira. Anais do LI Simpósio Brasileiro de Pesquisa Operacional, 2019. v. 02. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.5753/wte.2019.14041" target="_blank" tabindex="102"></a>DE ARAÚJO, PEDRO VINICIUS ; <b>BATISTA JR, ANTÔNIO</b> ; GAZZIRO, MARIO . Esquema de votação seguro e transparente através de encriptação homomór¿ca. In: IV Workshop de Tecnologia Eleitoral, 2019, Brasil. Anais do IV Workshop de Tecnologia Eleitora (WTE 2019). p. 25. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LIMA, F. T. ; GAZZIRO, M. A. ; <b>BATISTA JUNIOR, A. A.</b> ; MATIAS, P. ; COSTA, J. V. C. . Urna eletrônica de terceira geração: Um protótipo para eleicções auditáveis. In: Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais, 2017, Brasília-DF. XVII  Simpósio  Brasileiro  em  Segurança  da  Informação  e  de   Sistemas Computacionais: SBSEG 2017, 2017. p. 677-685. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/itsc.2013.6728592" target="_blank" tabindex="103"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8874849216659304" target="_blank" tabindex="104">DE ABREU BATISTA, ANTONIO</a></b>; COUTINHO, LUCIANO REIS . A multiagent system for combining green wave and adaptive control in a dynamic way. In: 2013 16th International IEEE Conference on Intelligent Transportation Systems  (ITSC 2013), 2013, The Hague. 16th International IEEE Conference on Intelligent Transportation Systems (ITSC 2013), 2013. p. 2439-2444. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.3233/978-1-61499-254-7-137" target="_blank" tabindex="105"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8874849216659304" target="_blank" tabindex="106">BATISTA JUNIOR, A. A.</a></b>; COUTINHO, LUCIANO R. . Incorporating Explicit Coordination Mechanisms by Agents to Obtain Green Waves. In: 7th {KES} Conference on Agent and Multi-Agent Systems - Technologies and Applications {(KES-AMSTA}, 2013, Hue City. Proceedings of the 7th {KES} Conference on Agent and Multi-Agent Systems - Technologies and Applications {(KES-AMSTA}, 2013. p. 137-145. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="107"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SAMPAIO, R. B. ; FERREIRA, B. S. ; <b>BATISTA JUNIOR, A. A.</b> ; MENA-CHALCO, J. P. . e-Lattes: A new framework in R language for analysis of the Lattes curriculum. In: 17th INTERNATIONAL CONFERENCE ON SCIENTOMETRICS &amp; INFORMETRICS, 2019, Rome. PROCEEDINGS OF THE 17TH CONFERENCE OF THE INTERNATIONAL SOCIETY FOR SCIENTOMETRICS AND INFORMETRICS. v. II. p. 2660-2661. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="108"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		FRAGA, MÁRCIO REGIS M. ; COUTINHO, LUCIANO R. ; <b>BATISTA JUNIOR, A. A.</b> ; BORCHATT, T. B. ; PEREIRA, I. J. . Adding Artificial Players Controlled by Explicitly Defined Organizations on Computer Games. In: XIV Simpósio Brasileiro de Games e Entretenimento Digital (SBGames), 2015, Teresina-PI. SBC - Proceedings  of SBGames  2015, 2015. p. 279-282. </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Bancas" tabindex="109">
+<h1 tabindex="0">Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho" tabindex="110"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JUNIOR, GERALDO BRAZ; <b>de Abreu Batista, Antonio</b>; MONTEIRO, V. R..  Participação em banca de Marcio Rodrigo Melo Martins. Estudo da Modelagem do Módulo para Gestão do Restaurante Universitário. 2015. Monografia (Aperfeiçoamento/Especialização em Análise e Projeto de Sistemas)  - Universidade Federal do Maranhão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COUTINHO, L. R.; <b>de Abreu Batista, Antonio</b>; OLIVEIRA, A. C. M..  Participação em banca de Alan Gonçalves Costa. Simulação de Demanda por Transporte Coletivo Urbano em São Luís - MA usando Sistemas Multiagentes. 2015. Monografia (Aperfeiçoamento/Especialização em Análise e Projeto de Sistemas)  - Universidade Federal do Maranhão. </div>
+</div>
+<br class="clear"><br class="clear"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Eventos" tabindex="111">
+<h1 tabindex="0">Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="OrganizacaoEventos" tabindex="112"></a><br class="clear"><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8874849216659304" target="_blank" tabindex="113">DE ABREU BATISTA, ANTONIO</a></b>. Jornada de Informática do Maranhão (JIM 2016). 2016. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Orientacoes" tabindex="114">
+<h1 tabindex="0">Orientações</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas" tabindex="115"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alércio Charles Silva.
+							Correção Automática de questões discursivas de resposta curta: Uma abordagem baseada em Extração de Informação.
+							2023.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Universidade Federal do Maranhão. Orientador: Antonio de Abreu Batista Junior.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Karla Felícia Carvalho da Silva.
+							Um Método Computacional para Identificação de Propagação de Vieses usando Redes Neurais.
+							2022.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Universidade Federal do Maranhão. Orientador: Antonio de Abreu Batista Junior.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pedro Vinicius Macedo de Araújo.
+							Transparência e Privacidade em Urnas Eletrônicas através de Encriptação Homomórfica e de Esquemas de Comprometimento.
+							2018.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Universidade Federal do Maranhão. Orientador: Antonio de Abreu Batista Junior.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jander Rocha Alves.
+							Avaliação de desempenho dos criptossistemas de curvas elípitcas de Menezes-vanstone e do análogo do Elgamal no contexto de encriptação de imagens.l.
+							2017.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Universidade Federal do Maranhão. Orientador: Antonio de Abreu Batista Junior.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Danilo Costa de Carvalho.
+							Análise comparativa de parâmetros de um servidor de validação.
+							2017.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Universidade Federal do Maranhão. Orientador: Antonio de Abreu Batista Junior.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jonathan Montalvane Silva Ferreira.
+							Utilização da  Suíte Pentaho  Community Edition para  a contrução de projetos de Business Intelligence.
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Universidade Federal do Maranhão. Orientador: Antonio de Abreu Batista Junior.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><br class="clear"><div class="rodape-cv">Página gerada pelo Sistema Currículo Lattes em 30/06/2023 às 17:14:48</div><br class="clear"><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=8874849216659304" target="_blank" class="button" tabindex="116"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()" tabindex="117"><span class="mini-ico mini-ico-list"></span>Imprimir Currículo</a>
+</div><br class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop" style="display: block;">
+<a href="javascript:void(0)" class="topo-width center" tabindex="118">
+<div class="id-orgao">
+<span>CNPq</span> | Uma agência do Ministério da Ciência, Tecnologia e Inovação</div>
+</a>
+</div>
+
+
+<div id="menu-dados-gerais" class="megamenu" _megamenupos="0pos" style="z-index: 1001; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#Identificacao" tabindex="11">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco" tabindex="12">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas" tabindex="13">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-formacao" class="megamenu" _megamenupos="1pos" style="z-index: 1002; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao" tabindex="15">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar" tabindex="16">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-atuacao" class="megamenu" _megamenupos="2pos" style="z-index: 1003; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional" tabindex="18">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa" tabindex="19">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico" tabindex="20">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorProjetoFomento" tabindex="21">Revisor de projeto de fomento</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao" tabindex="22">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-projetos" class="megamenu" _megamenupos="3pos" style="z-index: 1004; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa" tabindex="24">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-producoes" class="megamenu" _megamenupos="4pos" style="z-index: 1005; display: none;">
+		
+		<div class="column"><div class="subtitMenu"><a href="#ProducaoBibliografica" tabindex="26">Produção Bibliográfica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos" tabindex="27">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos" tabindex="28">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos" tabindex="29">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas" tabindex="30">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso" tabindex="31">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho" tabindex="32">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="33">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="34">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="35">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="36">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="#ProducaoTecnica" tabindex="37">Produção Técnica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria" tabindex="38">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente" tabindex="39">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos" tabindex="40">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas" tabindex="41">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos" tabindex="42">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="43">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="44">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="45">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="46">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica" tabindex="47">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="48">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas" tabindex="49">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="50">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais" tabindex="51">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas" tabindex="52">Outras produções técnicas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="#ProducaoArtisticaCultural" tabindex="53">Produção Artística/Cultural</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas" tabindex="54">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica" tabindex="55">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais" tabindex="56">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas" tabindex="57">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-eventos" class="megamenu" _megamenupos="5pos" style="z-index: 1006; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#OrganizacaoEventos" tabindex="59">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-orientacoes" class="megamenu" _megamenupos="6pos" style="z-index: 1007; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas" tabindex="61">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento" tabindex="62">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-bancas" class="megamenu" _megamenupos="7pos" style="z-index: 1008; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho" tabindex="64">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes" tabindex="65">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-informacoes-complementares" class="megamenu" _megamenupos="8pos" style="z-index: 1009; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&amp;id=K4465426T6&amp;tipo=completo&amp;idiomaExibicao=1" tabindex="67">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div></body></html>
