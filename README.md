@@ -1,3 +1,7 @@
+# Disclaimer
+
+Este repositório foi arquivado e não receberá novas atualizações. O ScriptLattes recebeu atualização para Python 3 pelo mantenedor original [(Jesús P. Mena-Chalco)](https://github.com/jpmenachalco) e está sendo mantido em [repositório no GitHub](https://github.com/jpmenachalco/scriptLattes), com um port mais dedicado para Python 3 e outras atualizações.
+
 # ScriptLattes (Python 3)
 
 Este repositório disponibiliza uma versão do [ScriptLattes](https://scriptlattes.sourceforge.net/) compatível com python 3. As adaptações foram realizadas utilizando [2to3](https://docs.python.org/3/library/2to3.html) e algumas refatorações manuais de código. Deve se observar que não estão aplicadas manutenções de códigos, depreciação de features ou novas implementações, de forma que o código mantém alta fidelidade à implementação original (com exceção da adaptação de métodos depreciados e atualização de dependências).
